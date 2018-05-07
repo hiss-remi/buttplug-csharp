@@ -78,116 +78,126 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="Buttplug.Core.Messages.DeviceAdded.html">DeviceAdded</a></h4>
-      <section><p>The DeviceAdded Buttplug message: sent to the client by the server when a new device is discoved.</p>
+      <section><p>Sent from server when a new device is discoved.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.DeviceAddedVersion0.html">DeviceAddedVersion0</a></h4>
-      <section><p>The DeviceAdded Buttplug message: sent to the client by the server when a new device is discoved.
-This is an older version of class, kept for downgrade support.</p>
+      <section><p>Sent from server when a new device is discoved. Represents a prior spec version of the message, kept for downgrade support.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.DeviceList.html">DeviceList</a></h4>
-      <section><p>The DeviceList Buttplug message: encapsulates a list of devices connected to the server.</p>
+      <section><p>List of devices connected to the server.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.DeviceListVersion0.html">DeviceListVersion0</a></h4>
-      <section><p>The DeviceList Buttplug message: encapsulates a list of devices connected to the server.
-This is an older version of class, kept for downgrade support.</p>
+      <section><p>List of devices connected to the server. Represents a prior spec version of the message, kept
+for downgrade support.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.DeviceMessageInfo.html">DeviceMessageInfo</a></h4>
-      <section><p>This is a container class for describing a device.</p>
+      <section><p>Container class for describing a device.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.DeviceMessageInfoVersion0.html">DeviceMessageInfoVersion0</a></h4>
-      <section><p>This is a container class for describing a device.
-This is an older version of class, kept for downgrade support.</p>
+      <section><p>Container class for describing a device. Represents a prior spec version of the message, kept
+for downgrade support.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.DeviceRemoved.html">DeviceRemoved</a></h4>
-      <section><p>The DeviceRemoved Buttplug message: sent to the client by the server when a new device is disconnected.</p>
+      <section><p>Sent from server when a device is disconnected.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.Error.html">Error</a></h4>
-      <section><p>The Error Buttplug message: An indicator that something has gone wrong.</p>
+      <section><p>Indicator that there has been an error in the system, either due to the last message/query
+sent, or due to an internal error.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.FleshlightLaunchFW12Cmd.html">FleshlightLaunchFW12Cmd</a></h4>
-      <section><p>The FleshlightLaunchFW12Cmd Buttplug device message: controls a Fleshlight Launch</p>
+      <section><p>Sent to server, denotes commands for devices that can take Fleshlight Launch Firmware v1.2
+style messages. See <a href="https://docs.buttplug.io/stphikal">https://docs.buttplug.io/stphikal</a> for protocol info.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.KiirooCmd.html">KiirooCmd</a></h4>
-      <section><p>The KiirooCmd Buttplug device message: controls Gen1 Kiiroo devices</p>
+      <section><p>Sent to server, denotes commands for devices that can take Kiiroo (Generation 1) style
+messages. See <a href="https://docs.buttplug.io/stphikal">https://docs.buttplug.io/stphikal</a> for protocol info.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.LinearCmd.html">LinearCmd</a></h4>
-      <section><p>The LinearCmd Buttplug device message: controls linear actuator (thrusting) devices</p>
+      <section><p>Sent to server, generic message that can control any linear-actuated device. This message can
+take multiple commands for devices with multiple actuators.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html">LinearCmd.VectorSubcommands</a></h4>
-      <section><p>The container object for a moement vector on a device that may
-have multiple independent linear actuators.</p>
+      <section><p>Container object for representing a single linear motion command on a device that may
+have multiple independent linear actuated features.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.Log.html">Log</a></h4>
-      <section><p>The Log Buttplug message: A log entry</p>
+      <section><p>Sent from server when logs have been requested. Contains a single log entry.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.LovenseCmd.html">LovenseCmd</a></h4>
-      <section><p>The LovenseCmd Buttplug device message: controls Lovense devices</p>
+      <section><p>Sent to server, denotes commands for devices that can take Lovense style messages. See
+<a href="https://docs.buttplug.io/stphikal">https://docs.buttplug.io/stphikal</a> for protocol info.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.MessageAttributes.html">MessageAttributes</a></h4>
-      <section><p>This is a coantainer class for device attributes.
-New attributes may be added, but never removed.</p>
+      <section><p>Container class for device attributes.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.Ok.html">Ok</a></h4>
-      <section><p>The Ok Buttplug message: the normal response to most other messages.</p>
+      <section><p>Signifies the success of the last message/query.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.Ping.html">Ping</a></h4>
-      <section><p>The Ping Buttplug message: sent by the client at a regular rate to keep the connecton alive.</p>
+      <section><p>Sent to server, at an interval specified by the server. If ping is not received in a timely
+manner, devices are stopped and client/server connection is severed.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.RequestDeviceList.html">RequestDeviceList</a></h4>
-      <section><p>The RequestDeviceList Buttplug message: sent to the server by the client to request a list of all connected devices.</p>
+      <section><p>Sent to server to request a list of all connected devices.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.RequestLog.html">RequestLog</a></h4>
-      <section><p>The RequestLog Buttplug message: sent to the server by the client to request log entries be sent to the client.</p>
+      <section><p>Sent to server to request log entries be relayed to client.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.RequestServerInfo.html">RequestServerInfo</a></h4>
-      <section><p>The RequestServerInfo Buttplug message: beins the protocol handshake</p>
+      <section><p>Sent to server to set up client information, including client name and schema version.
+Denotes the beginning of a conneciton handshake.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.RotateCmd.html">RotateCmd</a></h4>
-      <section><p>The RotateCmd Buttplug device message: controls rotating devices</p>
+      <section><p>Sent to server, generic message that can control any rotating device. This message can take
+multiple commands for devices with multiple rotators.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.RotateCmd.RotateSubcommand.html">RotateCmd.RotateSubcommand</a></h4>
-      <section><p>The container object for a rotation speeds and directions on a device
-that may have multiple independent rotators.</p>
+      <section><p>Container object for representing a single rotation command on a device that may have
+multiple independent rotating features.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.ScanningFinished.html">ScanningFinished</a></h4>
-      <section><p>The ScanningFinished Buttplug message: sent to the client by the server when scanning has finished.</p>
+      <section><p>Sent from server when scanning has finished.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.ServerInfo.html">ServerInfo</a></h4>
-      <section><p>The ServerInfo Buttplug message: the second half of the protocol handshake</p>
+      <section><p>Sent from server, in response to <a class="xref" href="Buttplug.Core.Messages.RequestServerInfo.html">RequestServerInfo</a>. Contains server name,
+message version, ping information, etc...</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.SingleMotorVibrateCmd.html">SingleMotorVibrateCmd</a></h4>
-      <section><p>The SingleMotorVibrateCmd Buttplug device message: controls vibrating devices
-This has been superceeded by <a class="xref" href="Buttplug.Core.Messages.VibrateCmd.html">VibrateCmd</a></p>
+      <section><p>Sent to server, generic message that can control any vibrating device. If sent to device with
+multiple vibrators, causes all vibrators to vibrate at same speed. This has been superceeded
+by <a class="xref" href="Buttplug.Core.Messages.VibrateCmd.html">VibrateCmd</a>.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.StartScanning.html">StartScanning</a></h4>
-      <section><p>The StartScanning Buttplug message: request the server starts scanning for devices.</p>
+      <section><p>Sent to server, to start scanning for devices across supported busses.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.StopAllDevices.html">StopAllDevices</a></h4>
-      <section><p>The StopAllDevices Buttplug message: stops all devices</p>
+      <section><p>Sent to server, stops actions of all currently connected devices.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.StopDeviceCmd.html">StopDeviceCmd</a></h4>
-      <section><p>The StopDeviceCmd Buttplug device message: stops a specic device</p>
+      <section><p>Sent to server, stops actions of a specific device.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.StopScanning.html">StopScanning</a></h4>
-      <section><p>The StopScanning Buttplug message: requests the server stops scanning for devices.</p>
+      <section><p>Sent to server, to stop scanning for devices across supported busses.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.Test.html">Test</a></h4>
-      <section><p>The Test Buttplug message: Sends text to the server to be echo&apos;ed back.</p>
+      <section><p>Sends text to a server, expected to be echoed back.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.VibrateCmd.html">VibrateCmd</a></h4>
-      <section><p>The VibrateCmd Buttplug device message: controls vibrating devices</p>
+      <section><p>Sent to server, generic message that can control any vibrating device. Unlike <a class="xref" href="Buttplug.Core.Messages.SingleMotorVibrateCmd.html">SingleMotorVibrateCmd</a>, this message can take multiple commands for devices with
+multiple vibrators.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.html">VibrateCmd.VibrateSubcommand</a></h4>
-      <section><p>The container object for a vibration speed on a device that may
-have multiple independent vibtators.</p>
+      <section><p>Container object for representing a single vibration speed on a device that may have
+multiple independent vibtators.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.Messages.VorzeA10CycloneCmd.html">VorzeA10CycloneCmd</a></h4>
-      <section><p>The VorzeA10CycloneCmd Buttplug device message: controls a Vorze A10 Cyclone</p>
+      <section><p>Sent to server, denotes commands for devices that can take Vorze A10 Cyclone style messages.
+See <a href="https://docs.buttplug.io/stphikal">https://docs.buttplug.io/stphikal</a> for protocol info.</p>
 </section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Buttplug.Core.Messages.Error.ErrorClass.html">Error.ErrorClass</a></h4>
-      <section><p>The classes of error</p>
+      <section><p>Types of errors described by the message.</p>
 </section>
 </article>
           </div>

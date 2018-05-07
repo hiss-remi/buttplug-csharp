@@ -73,7 +73,7 @@
   
   <h1 id="Buttplug_Core_IButtplugDevice" data-uid="Buttplug.Core.IButtplugDevice" class="text-break">Interface IButtplugDevice
   </h1>
-  <div class="markdown level0 summary"><p>The interface for representations of Buttplug devices</p>
+  <div class="markdown level0 summary"><p>Interface for representations of hardware devices.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Buttplug.Core.html">Buttplug.Core</a></h6>
@@ -93,7 +93,7 @@
   </span>
   <a id="Buttplug_Core_IButtplugDevice_Identifier_" data-uid="Buttplug.Core.IButtplugDevice.Identifier*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_Identifier" data-uid="Buttplug.Core.IButtplugDevice.Identifier">Identifier</h4>
-  <div class="markdown level1 summary"><p>Gets the indentifier of the device</p>
+  <div class="markdown level1 summary"><p>Device identifier. Something that uniquely identifies this device, such as a Bluetooth Address.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -125,7 +125,7 @@ string Identifier { get; }</code></pre>
   </span>
   <a id="Buttplug_Core_IButtplugDevice_Index_" data-uid="Buttplug.Core.IButtplugDevice.Index*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_Index" data-uid="Buttplug.Core.IButtplugDevice.Index">Index</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the index of the device</p>
+  <div class="markdown level1 summary"><p>Index of the device.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -156,7 +156,7 @@ string Identifier { get; }</code></pre>
   </span>
   <a id="Buttplug_Core_IButtplugDevice_IsConnected_" data-uid="Buttplug.Core.IButtplugDevice.IsConnected*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_IsConnected" data-uid="Buttplug.Core.IButtplugDevice.IsConnected">IsConnected</h4>
-  <div class="markdown level1 summary"><p>Gets a value indicating whether the device is connected</p>
+  <div class="markdown level1 summary"><p>Value indicating whether the device is connected.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -187,7 +187,7 @@ string Identifier { get; }</code></pre>
   </span>
   <a id="Buttplug_Core_IButtplugDevice_Name_" data-uid="Buttplug.Core.IButtplugDevice.Name*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_Name" data-uid="Buttplug.Core.IButtplugDevice.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Gets the name of the device</p>
+  <div class="markdown level1 summary"><p>Device name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -221,7 +221,7 @@ string Name { get; }</code></pre>
   </span>
   <a id="Buttplug_Core_IButtplugDevice_Disconnect_" data-uid="Buttplug.Core.IButtplugDevice.Disconnect*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_Disconnect" data-uid="Buttplug.Core.IButtplugDevice.Disconnect">Disconnect()</h4>
-  <div class="markdown level1 summary"><p>Disconnects the device</p>
+  <div class="markdown level1 summary"><p>Disconnect device.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -237,7 +237,7 @@ string Name { get; }</code></pre>
   </span>
   <a id="Buttplug_Core_IButtplugDevice_GetAllowedMessageTypes_" data-uid="Buttplug.Core.IButtplugDevice.GetAllowedMessageTypes*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_GetAllowedMessageTypes" data-uid="Buttplug.Core.IButtplugDevice.GetAllowedMessageTypes">GetAllowedMessageTypes()</h4>
-  <div class="markdown level1 summary"><p>Gets allowed message types for this device</p>
+  <div class="markdown level1 summary"><p>Allowed message types for this device.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -256,7 +256,7 @@ IEnumerable&lt;Type&gt; GetAllowedMessageTypes()</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a>&gt;</td>
-        <td><p>An enumerable of messahe types</p>
+        <td><p>Enumerable of message types</p>
 </td>
       </tr>
     </tbody>
@@ -270,8 +270,8 @@ IEnumerable&lt;Type&gt; GetAllowedMessageTypes()</code></pre>
   </span>
   <a id="Buttplug_Core_IButtplugDevice_GetMessageAttrs_" data-uid="Buttplug.Core.IButtplugDevice.GetMessageAttrs*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_GetMessageAttrs_System_Type_" data-uid="Buttplug.Core.IButtplugDevice.GetMessageAttrs(System.Type)">GetMessageAttrs(Type)</h4>
-  <div class="markdown level1 summary"><p>Invokes the EmitMessage event handler.
-Required to allow events to be raised for this device from the lower levels.</p>
+  <div class="markdown level1 summary"><p>Retreives the message attributes for the device associated with this message. Used for
+retreiving information about feature counts in device command messages, etc...</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -292,7 +292,7 @@ MessageAttributes GetMessageAttrs(Type aMsg)</code></pre>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
         <td><span class="parametername">aMsg</span></td>
-        <td><p>The message to emit from the device</p>
+        <td><p>Message type to fetch attributes for</p>
 </td>
       </tr>
     </tbody>
@@ -321,7 +321,8 @@ MessageAttributes GetMessageAttrs(Type aMsg)</code></pre>
   </span>
   <a id="Buttplug_Core_IButtplugDevice_Initialize_" data-uid="Buttplug.Core.IButtplugDevice.Initialize*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_Initialize" data-uid="Buttplug.Core.IButtplugDevice.Initialize">Initialize()</h4>
-  <div class="markdown level1 summary"><p>Initiaizes a device (perform any one-tme-setup stuff for example)</p>
+  <div class="markdown level1 summary"><p>Initializes a device. Required for devices that may require connection handshakes or
+similar on-connection setups.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -340,7 +341,7 @@ Task&lt;ButtplugMessage&gt; Initialize()</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
-        <td><p>A message resonse to the initialisation</p>
+        <td><p>Response, usually <a class="xref" href="Buttplug.Core.Messages.Ok.html">Ok</a> or <a class="xref" href="Buttplug.Core.Messages.Error.html">Error</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -350,13 +351,12 @@ Task&lt;ButtplugMessage&gt; Initialize()</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_IButtplugDevice_ParseMessage_Buttplug_Core_ButtplugDeviceMessage_.md&amp;value=---%0Auid%3A%20Buttplug.Core.IButtplugDevice.ParseMessage(Buttplug.Core.ButtplugDeviceMessage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugDevice.cs/#L62">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugDevice.cs/#L61">View Source</a>
   </span>
   <a id="Buttplug_Core_IButtplugDevice_ParseMessage_" data-uid="Buttplug.Core.IButtplugDevice.ParseMessage*"></a>
   <h4 id="Buttplug_Core_IButtplugDevice_ParseMessage_Buttplug_Core_ButtplugDeviceMessage_" data-uid="Buttplug.Core.IButtplugDevice.ParseMessage(Buttplug.Core.ButtplugDeviceMessage)">ParseMessage(ButtplugDeviceMessage)</h4>
-  <div class="markdown level1 summary"><p>Interprets a Buttplug device message by ensuring it is supported
-by this device, then invoking the handler method and returing the
-resulting Buttplug message.</p>
+  <div class="markdown level1 summary"><p>Checks to see whether a message is supported by the device that implements this
+interface. If the message is supported, executes the handler for that message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -377,7 +377,7 @@ Task&lt;ButtplugMessage&gt; ParseMessage(ButtplugDeviceMessage aMsg)</code></pre
       <tr>
         <td><a class="xref" href="Buttplug.Core.ButtplugDeviceMessage.html">ButtplugDeviceMessage</a></td>
         <td><span class="parametername">aMsg</span></td>
-        <td><p>The device message to handle</p>
+        <td><p>Device message to handle</p>
 </td>
       </tr>
     </tbody>
@@ -393,7 +393,7 @@ Task&lt;ButtplugMessage&gt; ParseMessage(ButtplugDeviceMessage aMsg)</code></pre
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
-        <td><p>The message response</p>
+        <td><p>Response, usually <a class="xref" href="Buttplug.Core.Messages.Ok.html">Ok</a> or <a class="xref" href="Buttplug.Core.Messages.Error.html">Error</a>, but can be other types.</p>
 </td>
       </tr>
     </tbody>
@@ -408,7 +408,7 @@ Task&lt;ButtplugMessage&gt; ParseMessage(ButtplugDeviceMessage aMsg)</code></pre
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugDevice.cs/#L40">View Source</a>
   </span>
   <h4 id="Buttplug_Core_IButtplugDevice_DeviceRemoved" data-uid="Buttplug.Core.IButtplugDevice.DeviceRemoved">DeviceRemoved</h4>
-  <div class="markdown level1 summary"><p>Event handler for signalling the device has been removed</p>
+  <div class="markdown level1 summary"><p>Event handler for device removal.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -439,7 +439,7 @@ event EventHandler DeviceRemoved</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugDevice.cs/#L46">View Source</a>
   </span>
   <h4 id="Buttplug_Core_IButtplugDevice_MessageEmitted" data-uid="Buttplug.Core.IButtplugDevice.MessageEmitted">MessageEmitted</h4>
-  <div class="markdown level1 summary"><p>Event handler for signalling when the device has data to share</p>
+  <div class="markdown level1 summary"><p>Event handler for device actions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

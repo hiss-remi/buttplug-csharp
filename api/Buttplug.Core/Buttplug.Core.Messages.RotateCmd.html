@@ -73,7 +73,8 @@
   
   <h1 id="Buttplug_Core_Messages_RotateCmd" data-uid="Buttplug.Core.Messages.RotateCmd" class="text-break">Class RotateCmd
   </h1>
-  <div class="markdown level0 summary"><p>The RotateCmd Buttplug device message: controls rotating devices</p>
+  <div class="markdown level0 summary"><p>Sent to server, generic message that can control any rotating device. This message can take
+multiple commands for devices with multiple rotators.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -135,7 +136,7 @@
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_RotateCmd__ctor_System_UInt32_System_Collections_Generic_List_Buttplug_Core_Messages_RotateCmd_RotateSubcommand__System_UInt32_.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.RotateCmd.%23ctor(System.UInt32%2CSystem.Collections.Generic.List%7BButtplug.Core.Messages.RotateCmd.RotateSubcommand%7D%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1057">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1064">View Source</a>
   </span>
   <a id="Buttplug_Core_Messages_RotateCmd__ctor_" data-uid="Buttplug.Core.Messages.RotateCmd.#ctor*"></a>
   <h4 id="Buttplug_Core_Messages_RotateCmd__ctor_System_UInt32_System_Collections_Generic_List_Buttplug_Core_Messages_RotateCmd_RotateSubcommand__System_UInt32_" data-uid="Buttplug.Core.Messages.RotateCmd.#ctor(System.UInt32,System.Collections.Generic.List{Buttplug.Core.Messages.RotateCmd.RotateSubcommand},System.UInt32)">RotateCmd(UInt32, List&lt;RotateCmd.RotateSubcommand&gt;, UInt32)</h4>
@@ -159,19 +160,19 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aDeviceIndex</span></td>
-        <td><p>The index of the device.</p>
+        <td><p>Device index</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Buttplug.Core.Messages.RotateCmd.RotateSubcommand.html">RotateCmd.RotateSubcommand</a>&gt;</td>
         <td><span class="parametername">aRotations</span></td>
-        <td><p>A list of rotations</p>
+        <td><p>List of rotations</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aId</span></td>
-        <td><p>The message ID</p>
+        <td><p>Message ID</p>
 </td>
       </tr>
     </tbody>
@@ -183,10 +184,10 @@
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_RotateCmd_Rotations.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.RotateCmd.Rotations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1049">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1056">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_RotateCmd_Rotations" data-uid="Buttplug.Core.Messages.RotateCmd.Rotations">Rotations</h4>
-  <div class="markdown level1 summary"><p>A list of rotation speeds and directions.</p>
+  <div class="markdown level1 summary"><p>List of rotation speeds and directions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -220,7 +221,7 @@ public List&lt;RotateCmd.RotateSubcommand&gt; Rotations</code></pre>
                     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_RotateCmd.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.RotateCmd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L986" class="contribution-link">View Source</a>
+                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L992" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

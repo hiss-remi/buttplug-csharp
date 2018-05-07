@@ -73,7 +73,7 @@
   
   <h1 id="Buttplug_Core_ButtplugDeviceMessage" data-uid="Buttplug.Core.ButtplugDeviceMessage" class="text-break">Class ButtplugDeviceMessage
   </h1>
-  <div class="markdown level0 summary"><p>The device command subset of Buttplug messages</p>
+  <div class="markdown level0 summary"><p>Subclass of Buttplug Messages, that command a device to take an action.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -166,25 +166,25 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aId</span></td>
-        <td><p>The message ID</p>
+        <td><p>Message ID</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aDeviceIndex</span></td>
-        <td><p>The device index</p>
+        <td><p>Device index</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aSchemaVersion</span></td>
-        <td><p>The version of the schema that the message was introduced. Required for cross version schema support.</p>
+        <td><p>Version of the schema where the message was introduced. Required for cross-version schema support.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
         <td><span class="parametername">aPreviousType</span></td>
-        <td><p>The Type for the previous version of the message, or null. This is used to downgrade messages when cominucating with older clients.</p>
+        <td><p>Previous version type of the message, or null. This is used to downgrade messages when communicating with older clients.</p>
 </td>
       </tr>
     </tbody>
@@ -200,7 +200,7 @@
   </span>
   <a id="Buttplug_Core_ButtplugDeviceMessage_DeviceIndex_" data-uid="Buttplug.Core.ButtplugDeviceMessage.DeviceIndex*"></a>
   <h4 id="Buttplug_Core_ButtplugDeviceMessage_DeviceIndex" data-uid="Buttplug.Core.ButtplugDeviceMessage.DeviceIndex">DeviceIndex</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the index of the device this message is intended to act upon.</p>
+  <div class="markdown level1 summary"><p>Device index the message is intended for.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

@@ -73,8 +73,7 @@
   
   <h1 id="Buttplug_Core_ButtplugJsonMessageParser" data-uid="Buttplug.Core.ButtplugJsonMessageParser" class="text-break">Class ButtplugJsonMessageParser
   </h1>
-  <div class="markdown level0 summary"><p>This class handles the seralisation, deserialisation and
-validation of Buttplug JSON messages into objects.</p>
+  <div class="markdown level0 summary"><p>Handles the seralization (object to JSON), deserialization (JSON to object) and validation of messages.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -119,7 +118,7 @@ validation of Buttplug JSON messages into objects.</p>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugJsonMessageParser__ctor_Buttplug_Core_IButtplugLogManager_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugJsonMessageParser.%23ctor(Buttplug.Core.IButtplugLogManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L36">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L35">View Source</a>
   </span>
   <a id="Buttplug_Core_ButtplugJsonMessageParser__ctor_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.#ctor*"></a>
   <h4 id="Buttplug_Core_ButtplugJsonMessageParser__ctor_Buttplug_Core_IButtplugLogManager_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.#ctor(Buttplug.Core.IButtplugLogManager)">ButtplugJsonMessageParser(IButtplugLogManager)</h4>
@@ -143,7 +142,7 @@ validation of Buttplug JSON messages into objects.</p>
       <tr>
         <td><a class="xref" href="Buttplug.Core.IButtplugLogManager.html">IButtplugLogManager</a></td>
         <td><span class="parametername">aLogManager</span></td>
-        <td><p>The log manager</p>
+        <td><p>Log manager</p>
 </td>
       </tr>
     </tbody>
@@ -155,11 +154,11 @@ validation of Buttplug JSON messages into objects.</p>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugJsonMessageParser_Deserialize_System_String_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugJsonMessageParser.Deserialize(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L95">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L94">View Source</a>
   </span>
   <a id="Buttplug_Core_ButtplugJsonMessageParser_Deserialize_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Deserialize*"></a>
   <h4 id="Buttplug_Core_ButtplugJsonMessageParser_Deserialize_System_String_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Deserialize(System.String)">Deserialize(String)</h4>
-  <div class="markdown level1 summary"><p>Deserialises Buttplug messages from JSON into an array of ButtpluMessage objects</p>
+  <div class="markdown level1 summary"><p>Deserializes Buttplug messages from JSON into an array of <a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a> objects.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -180,7 +179,7 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">aJsonMsg</span></td>
-        <td><p>A string containing one or more Buttplug messages in JSON format</p>
+        <td><p>String containing one or more Buttplug messages in JSON format</p>
 </td>
       </tr>
     </tbody>
@@ -196,7 +195,7 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>[]</td>
-        <td><p>An array of ButtplugMessage objects</p>
+        <td><p>Array of <a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a> objects</p>
 </td>
       </tr>
     </tbody>
@@ -206,11 +205,11 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugJsonMessageParser_Serialize_Buttplug_Core_ButtplugMessage_System_UInt32_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugJsonMessageParser.Serialize(Buttplug.Core.ButtplugMessage%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L201">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L200">View Source</a>
   </span>
   <a id="Buttplug_Core_ButtplugJsonMessageParser_Serialize_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Serialize*"></a>
   <h4 id="Buttplug_Core_ButtplugJsonMessageParser_Serialize_Buttplug_Core_ButtplugMessage_System_UInt32_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Serialize(Buttplug.Core.ButtplugMessage,System.UInt32)">Serialize(ButtplugMessage, UInt32)</h4>
-  <div class="markdown level1 summary"><p>Serialises a single ButtplugMessage object into a JSON string for a specified version of the schema</p>
+  <div class="markdown level1 summary"><p>Serializes a single <a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a> object into a JSON string for a specified version of the schema.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -230,13 +229,13 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
       <tr>
         <td><a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a></td>
         <td><span class="parametername">aMsg</span></td>
-        <td><p>A ButtplugMessage object</p>
+        <td><p><a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a> object</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">clientSchemaVersion</span></td>
-        <td><p>The target schema version</p>
+        <td><p>Target schema version</p>
 </td>
       </tr>
     </tbody>
@@ -252,7 +251,7 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>A JSON string representing a Buttplug message</p>
+        <td><p>JSON string representing a Buttplug message</p>
 </td>
       </tr>
     </tbody>
@@ -262,11 +261,11 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugJsonMessageParser_Serialize_System_Collections_Generic_IEnumerable_Buttplug_Core_ButtplugMessage__System_UInt32_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugJsonMessageParser.Serialize(System.Collections.Generic.IEnumerable%7BButtplug.Core.ButtplugMessage%7D%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L243">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L242">View Source</a>
   </span>
   <a id="Buttplug_Core_ButtplugJsonMessageParser_Serialize_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Serialize*"></a>
   <h4 id="Buttplug_Core_ButtplugJsonMessageParser_Serialize_System_Collections_Generic_IEnumerable_Buttplug_Core_ButtplugMessage__System_UInt32_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Serialize(System.Collections.Generic.IEnumerable{Buttplug.Core.ButtplugMessage},System.UInt32)">Serialize(IEnumerable&lt;ButtplugMessage&gt;, UInt32)</h4>
-  <div class="markdown level1 summary"><p>Serialises a collection of ButtplugMessage objects into a JSON string for a specified version of the schema</p>
+  <div class="markdown level1 summary"><p>Serializes a collection of ButtplugMessage objects into a JSON string for a specified version of the schema.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -324,7 +323,7 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
                     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugJsonMessageParser.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugJsonMessageParser%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L19" class="contribution-link">View Source</a>
+                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L18" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

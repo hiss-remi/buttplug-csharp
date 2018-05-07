@@ -146,17 +146,20 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
         <td><span class="parametername">aEx</span></td>
-        <td></td>
+        <td><p>Exception to log</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">aLocalOnly</span></td>
-        <td></td>
+        <td><p>If true, do not send error message to client</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">aErrorMessage</span></td>
-        <td></td>
+        <td><p>Description of the error</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -171,7 +174,7 @@
   </span>
   <a id="Buttplug_Core_LogExceptionEventArgs_ErrorMessage_" data-uid="Buttplug.Core.LogExceptionEventArgs.ErrorMessage*"></a>
   <h4 id="Buttplug_Core_LogExceptionEventArgs_ErrorMessage" data-uid="Buttplug.Core.LogExceptionEventArgs.ErrorMessage">ErrorMessage</h4>
-  <div class="markdown level1 summary"><p>Gets the error message</p>
+  <div class="markdown level1 summary"><p>Error description.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -202,7 +205,7 @@
   </span>
   <a id="Buttplug_Core_LogExceptionEventArgs_Ex_" data-uid="Buttplug.Core.LogExceptionEventArgs.Ex*"></a>
   <h4 id="Buttplug_Core_LogExceptionEventArgs_Ex" data-uid="Buttplug.Core.LogExceptionEventArgs.Ex">Ex</h4>
-  <div class="markdown level1 summary"><p>Gets the exception</p>
+  <div class="markdown level1 summary"><p>Exception object related to error.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -233,7 +236,7 @@
   </span>
   <a id="Buttplug_Core_LogExceptionEventArgs_LocalOnly_" data-uid="Buttplug.Core.LogExceptionEventArgs.LocalOnly*"></a>
   <h4 id="Buttplug_Core_LogExceptionEventArgs_LocalOnly" data-uid="Buttplug.Core.LogExceptionEventArgs.LocalOnly">LocalOnly</h4>
-  <div class="markdown level1 summary"><p>Is the error local only, or can we send this to the client (assuming they want it)</p>
+  <div class="markdown level1 summary"><p>If true, error should not be forwarded to client.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

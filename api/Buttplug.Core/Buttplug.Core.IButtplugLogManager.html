@@ -73,9 +73,7 @@
   
   <h1 id="Buttplug_Core_IButtplugLogManager" data-uid="Buttplug.Core.IButtplugLogManager" class="text-break">Interface IButtplugLogManager
   </h1>
-  <div class="markdown level0 summary"><p>The Buttplug logging manager.
-This handles recieving log messages and reporting any that match the
-granularity level to any listeners</p>
+  <div class="markdown level0 summary"><p>Interface for log managers. See <a class="xref" href="Buttplug.Core.ButtplugLogManager.html">ButtplugLogManager</a> implementation for more info.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Buttplug.Core.html">Buttplug.Core</a></h6>
@@ -91,11 +89,11 @@ granularity level to any listeners</p>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_IButtplugLogManager_Level.md&amp;value=---%0Auid%3A%20Buttplug.Core.IButtplugLogManager.Level%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugLogManager.cs/#L22">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugLogManager.cs/#L20">View Source</a>
   </span>
   <a id="Buttplug_Core_IButtplugLogManager_Level_" data-uid="Buttplug.Core.IButtplugLogManager.Level*"></a>
   <h4 id="Buttplug_Core_IButtplugLogManager_Level" data-uid="Buttplug.Core.IButtplugLogManager.Level">Level</h4>
-  <div class="markdown level1 summary"><p>The level of log to report</p>
+  <div class="markdown level1 summary"><p>Log level to report.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -124,11 +122,12 @@ granularity level to any listeners</p>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_IButtplugLogManager_GetLogger_System_Type_.md&amp;value=---%0Auid%3A%20Buttplug.Core.IButtplugLogManager.GetLogger(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugLogManager.cs/#L29">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugLogManager.cs/#L28">View Source</a>
   </span>
   <a id="Buttplug_Core_IButtplugLogManager_GetLogger_" data-uid="Buttplug.Core.IButtplugLogManager.GetLogger*"></a>
   <h4 id="Buttplug_Core_IButtplugLogManager_GetLogger_System_Type_" data-uid="Buttplug.Core.IButtplugLogManager.GetLogger(System.Type)">GetLogger(Type)</h4>
-  <div class="markdown level1 summary"><p>Gets a Buttplug logger for the specified type</p>
+  <div class="markdown level1 summary"><p>Gets a Buttplug logger for the specified type. Used for creating loggers specific to
+class types, so the types can be prepended to the log message for tracing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -149,7 +148,7 @@ IButtplugLog GetLogger(Type aType)</code></pre>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
         <td><span class="parametername">aType</span></td>
-        <td><p>The type this logger is for</p>
+        <td><p>Type that this logger will be for</p>
 </td>
       </tr>
     </tbody>
@@ -165,7 +164,7 @@ IButtplugLog GetLogger(Type aType)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="Buttplug.Core.IButtplugLog.html">IButtplugLog</a></td>
-        <td><p>A Buttplug logger</p>
+        <td><p>Buttplug logger object</p>
 </td>
       </tr>
     </tbody>
@@ -177,10 +176,10 @@ IButtplugLog GetLogger(Type aType)</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_IButtplugLogManager_LogMessageReceived.md&amp;value=---%0Auid%3A%20Buttplug.Core.IButtplugLogManager.LogMessageReceived%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugLogManager.cs/#L17">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugLogManager.cs/#L15">View Source</a>
   </span>
   <h4 id="Buttplug_Core_IButtplugLogManager_LogMessageReceived" data-uid="Buttplug.Core.IButtplugLogManager.LogMessageReceived">LogMessageReceived</h4>
-  <div class="markdown level1 summary"><p>This handler is called when a log message has been recieved</p>
+  <div class="markdown level1 summary"><p>Called when a log message has been received.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -214,7 +213,7 @@ event EventHandler&lt;ButtplugLogMessageEventArgs&gt; LogMessageReceived</code><
                     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_IButtplugLogManager.md&amp;value=---%0Auid%3A%20Buttplug.Core.IButtplugLogManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugLogManager.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/IButtplugLogManager.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

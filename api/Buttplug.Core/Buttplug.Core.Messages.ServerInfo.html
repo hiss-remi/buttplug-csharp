@@ -73,7 +73,8 @@
   
   <h1 id="Buttplug_Core_Messages_ServerInfo" data-uid="Buttplug.Core.Messages.ServerInfo" class="text-break">Class ServerInfo
   </h1>
-  <div class="markdown level0 summary"><p>The ServerInfo Buttplug message: the second half of the protocol handshake</p>
+  <div class="markdown level0 summary"><p>Sent from server, in response to <a class="xref" href="Buttplug.Core.Messages.RequestServerInfo.html">RequestServerInfo</a>. Contains server name,
+message version, ping information, etc...</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -159,25 +160,25 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">aServerName</span></td>
-        <td><p>The server&apos;s name</p>
+        <td><p>Server name</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aMessageVersion</span></td>
-        <td><p>The server&apos;s schema version</p>
+        <td><p>Server message schema version</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aMaxPingTime</span></td>
-        <td><p>The ping timeout</p>
+        <td><p>Ping timeout</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aId</span></td>
-        <td><p>The message ID</p>
+        <td><p>Message ID</p>
 </td>
       </tr>
     </tbody>
@@ -192,7 +193,7 @@
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L640">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_ServerInfo_BuildVersion" data-uid="Buttplug.Core.Messages.ServerInfo.BuildVersion">BuildVersion</h4>
-  <div class="markdown level1 summary"><p>In the version string X.Y.Z, this is Z (this is the server&apos;s product version)</p>
+  <div class="markdown level1 summary"><p>Product build version.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -223,7 +224,7 @@ public int BuildVersion</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L628">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_ServerInfo_MajorVersion" data-uid="Buttplug.Core.Messages.ServerInfo.MajorVersion">MajorVersion</h4>
-  <div class="markdown level1 summary"><p>In the version string X.Y.Z, this is X (this is the server&apos;s product version)</p>
+  <div class="markdown level1 summary"><p>Product major version.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -254,7 +255,7 @@ public int MajorVersion</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L652">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_ServerInfo_MaxPingTime" data-uid="Buttplug.Core.Messages.ServerInfo.MaxPingTime">MaxPingTime</h4>
-  <div class="markdown level1 summary"><p>The time in milliseconds in which the server will wait for a Ping message before disconnecting</p>
+  <div class="markdown level1 summary"><p>Expected ping time (in milliseconds).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -285,7 +286,7 @@ public uint MaxPingTime</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L646">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_ServerInfo_MessageVersion" data-uid="Buttplug.Core.Messages.ServerInfo.MessageVersion">MessageVersion</h4>
-  <div class="markdown level1 summary"><p>The schema version of the server (must be greater or equal to the client)</p>
+  <div class="markdown level1 summary"><p>The schema version of the server. Must be greater or equal to version client reported in <a class="xref" href="Buttplug.Core.Messages.RequestServerInfo.html">RequestServerInfo</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -316,7 +317,7 @@ public uint MessageVersion</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L634">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_ServerInfo_MinorVersion" data-uid="Buttplug.Core.Messages.ServerInfo.MinorVersion">MinorVersion</h4>
-  <div class="markdown level1 summary"><p>In the version string X.Y.Z, this is Y (this is the server&apos;s product version)</p>
+  <div class="markdown level1 summary"><p>Product minor version.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -347,7 +348,7 @@ public int MinorVersion</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L658">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_ServerInfo_ServerName" data-uid="Buttplug.Core.Messages.ServerInfo.ServerName">ServerName</h4>
-  <div class="markdown level1 summary"><p>The server&apos;s friendly name.</p>
+  <div class="markdown level1 summary"><p>Server name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

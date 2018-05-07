@@ -84,28 +84,26 @@
       <section><p>Constants for Buttplug</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.ButtplugDevice.html">ButtplugDevice</a></h4>
-      <section><p>An abstract representation of a Buttplug device</p>
+      <section><p>Abstract representation of a device</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.html">ButtplugDevice.ButtplugDeviceWrapper</a></h4>
       <section><p>A container class for message functions and attributes</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.ButtplugDeviceMessage.html">ButtplugDeviceMessage</a></h4>
-      <section><p>The device command subset of Buttplug messages</p>
+      <section><p>Subclass of Buttplug Messages, that command a device to take an action.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.ButtplugJsonMessageParser.html">ButtplugJsonMessageParser</a></h4>
-      <section><p>This class handles the seralisation, deserialisation and
-validation of Buttplug JSON messages into objects.</p>
+      <section><p>Handles the seralization (object to JSON), deserialization (JSON to object) and validation of messages.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.ButtplugLogManager.html">ButtplugLogManager</a></h4>
-      <section><p>The Buttplug logging manager.
-This handles recieving log messages and reporting any that match the
-granularity level to any listeners</p>
+      <section><p>Handles receiving log messages and reporting any that match requested granuarlity levels
+to be sent to clients.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.ButtplugLogMessageEventArgs.html">ButtplugLogMessageEventArgs</a></h4>
-      <section><p>Event wrapper for a log message</p>
+      <section><p>Event wrapper for log message events.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a></h4>
-      <section><p>Base class for all Buttplug protocol messages.</p>
+      <section><p>Base class for Buttplug protocol messages.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.ButtugLogExtenions.html">ButtugLogExtenions</a></h4>
       <section><p>Extension methods for <a class="xref" href="Buttplug.Core.IButtplugLog.html">IButtplugLog</a>.</p>
@@ -114,29 +112,24 @@ granularity level to any listeners</p>
       <section><p>Event wrapper for an exception log message</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.MessageReceivedEventArgs.html">MessageReceivedEventArgs</a></h4>
-      <section><p>An event encapsulating a recieved Buttplug message</p>
+      <section><p>Event fired when a new <a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a> is received.</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="Buttplug.Core.IButtplugDevice.html">IButtplugDevice</a></h4>
-      <section><p>The interface for representations of Buttplug devices</p>
+      <section><p>Interface for representations of hardware devices.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.IButtplugDeviceInfoMessage.html">IButtplugDeviceInfoMessage</a></h4>
-      <section><p>Interface for messages containing Device Info, such as DeviceAdded/Removed. Allows functions
-to take the interface as an argument instead of having to specialize per message type.</p>
+      <section><p>Interface for messages containing Device Info, such as DeviceAdded/Removed.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.IButtplugLog.html">IButtplugLog</a></h4>
-      <section><p>The Buttplug logger
-Tied to a specific type, this class emits log events</p>
+      <section><p>Sets up a common interface for log message events.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.IButtplugLogManager.html">IButtplugLogManager</a></h4>
-      <section><p>The Buttplug logging manager.
-This handles recieving log messages and reporting any that match the
-granularity level to any listeners</p>
+      <section><p>Interface for log managers. See <a class="xref" href="Buttplug.Core.ButtplugLogManager.html">ButtplugLogManager</a> implementation for more info.</p>
 </section>
       <h4><a class="xref" href="Buttplug.Core.IButtplugMessageOutgoingOnly.html">IButtplugMessageOutgoingOnly</a></h4>
-      <section><p>Interface for easy identification of Buttplug messages that should only
-e sent by the server, never the client.</p>
+      <section><p>Interface for messages only sent from server to client.</p>
 </section>
     <h3 id="enums">Enums
   </h3>

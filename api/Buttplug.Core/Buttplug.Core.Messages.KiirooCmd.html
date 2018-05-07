@@ -73,7 +73,8 @@
   
   <h1 id="Buttplug_Core_Messages_KiirooCmd" data-uid="Buttplug.Core.Messages.KiirooCmd" class="text-break">Class KiirooCmd
   </h1>
-  <div class="markdown level0 summary"><p>The KiirooCmd Buttplug device message: controls Gen1 Kiiroo devices</p>
+  <div class="markdown level0 summary"><p>Sent to server, denotes commands for devices that can take Kiiroo (Generation 1) style
+messages. See <a href="https://docs.buttplug.io/stphikal">https://docs.buttplug.io/stphikal</a> for protocol info.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -159,19 +160,19 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aDeviceIndex</span></td>
-        <td><p>The index of the device.</p>
+        <td><p>Device index</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aPosition</span></td>
-        <td><p>The position or vibration speed (0-4)</p>
+        <td><p>Position or vibration speed (0-4)</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aId</span></td>
-        <td><p>The message ID</p>
+        <td><p>Message ID</p>
 </td>
       </tr>
     </tbody>
@@ -183,11 +184,10 @@
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_KiirooCmd_Command.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.KiirooCmd.Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L777">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L778">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_KiirooCmd_Command" data-uid="Buttplug.Core.Messages.KiirooCmd.Command">Command</h4>
-  <div class="markdown level1 summary"><p>The Kiiroo command (in string form)
-Gen1 Kiiroo devices accept 0-4 for vibration strength or position</p>
+  <div class="markdown level1 summary"><p>The Kiiroo command (in string form).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -221,8 +221,7 @@ public string Command</code></pre>
   </span>
   <a id="Buttplug_Core_Messages_KiirooCmd_Position_" data-uid="Buttplug.Core.Messages.KiirooCmd.Position*"></a>
   <h4 id="Buttplug_Core_Messages_KiirooCmd_Position" data-uid="Buttplug.Core.Messages.KiirooCmd.Position">Position</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Kiiroo command (in numeric form)
-Gen1 Kiiroo devices accept 0-4 for vibration strength or position</p>
+  <div class="markdown level1 summary"><p>Gets or sets the Kiiroo command (in numeric form).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -256,7 +255,7 @@ public uint Position { get; set; }</code></pre>
                     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_KiirooCmd.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.KiirooCmd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L770" class="contribution-link">View Source</a>
+                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L772" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

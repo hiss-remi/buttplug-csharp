@@ -73,8 +73,8 @@
   
   <h1 id="Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand" data-uid="Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand" class="text-break">Class VibrateCmd.VibrateSubcommand
   </h1>
-  <div class="markdown level0 summary"><p>The container object for a vibration speed on a device that may
-have multiple independent vibtators.</p>
+  <div class="markdown level0 summary"><p>Container object for representing a single vibration speed on a device that may have
+multiple independent vibtators.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -119,7 +119,7 @@ have multiple independent vibtators.</p>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand__ctor_System_UInt32_System_Double_.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.%23ctor(System.UInt32%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L957">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L962">View Source</a>
   </span>
   <a id="Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand__ctor_" data-uid="Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.#ctor*"></a>
   <h4 id="Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand__ctor_System_UInt32_System_Double_" data-uid="Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.#ctor(System.UInt32,System.Double)">VibrateSubcommand(UInt32, Double)</h4>
@@ -143,13 +143,13 @@ have multiple independent vibtators.</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">aIndex</span></td>
-        <td><p>The vibration motor index</p>
+        <td><p>Vibration feature index</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
         <td><span class="parametername">aSpeed</span></td>
-        <td><p>The vibration speed</p>
+        <td><p>Vibration speed</p>
 </td>
       </tr>
     </tbody>
@@ -161,10 +161,11 @@ have multiple independent vibtators.</p>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand_Index.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.Index%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L927">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L932">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand_Index" data-uid="Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.Index">Index</h4>
-  <div class="markdown level1 summary"><p>The index of the vibrator on device</p>
+  <div class="markdown level1 summary"><p>Index of vibrator on device. Indexes are specific per device, see
+<a href="https://docs.buttplug.io/stphikal">https://docs.buttplug.io/stphikal</a> for device info.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -194,11 +195,11 @@ public uint Index</code></pre>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand_Speed.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.Speed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L932">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L937">View Source</a>
   </span>
   <a id="Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand_Speed_" data-uid="Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.Speed*"></a>
   <h4 id="Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand_Speed" data-uid="Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.Speed">Speed</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the speed to set the vibration motor to (0.0-1.0)</p>
+  <div class="markdown level1 summary"><p>Gets/sets vibration speed (0.0-1.0)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -232,7 +233,7 @@ public double Speed { get; set; }</code></pre>
                     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L919" class="contribution-link">View Source</a>
+                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L923" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
