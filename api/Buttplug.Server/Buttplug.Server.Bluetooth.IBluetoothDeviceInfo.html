@@ -91,8 +91,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-Guid[] Characteristics { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Dictionary&lt;uint, Guid&gt; Characteristics { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -104,7 +103,32 @@ Guid[] Characteristics { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a>[]</td>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>, <span class="xref">Guid</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Buttplug_Server_Bluetooth_IBluetoothDeviceInfo_NamePrefixes_" data-uid="Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.NamePrefixes*"></a>
+  <h4 id="Buttplug_Server_Bluetooth_IBluetoothDeviceInfo_NamePrefixes" data-uid="Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.NamePrefixes">NamePrefixes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string[] NamePrefixes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -117,8 +141,7 @@ Guid[] Characteristics { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-string[] Names { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">string[] Names { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,8 +166,7 @@ string[] Names { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-Guid[] Services { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Guid[] Services { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,7 +178,7 @@ Guid[] Services { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a>[]</td>
+        <td><span class="xref">Guid</span>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -171,8 +193,7 @@ Guid[] Services { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-IButtplugDevice CreateDevice([NotNull] IButtplugLogManager aLogManager, [NotNull] IBluetoothDeviceInterface aDeviceInterface)</code></pre>
+    <pre><code class="lang-csharp hljs">IButtplugDevice CreateDevice(IButtplugLogManager aLogManager, IBluetoothDeviceInterface aDeviceInterface)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

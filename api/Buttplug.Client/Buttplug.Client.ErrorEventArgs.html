@@ -82,35 +82,11 @@ or an exception is thrown.</p>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">ErrorEventArgs</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Buttplug.Client.html">Buttplug.Client</a></h6>
   <h6><strong>Assembly</strong>: Buttplug.Client.dll</h6>
   <h5 id="Buttplug_Client_ErrorEventArgs_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ErrorEventArgs</code></pre>
+    <pre><code class="lang-csharp hljs">public class ErrorEventArgs : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -150,13 +126,13 @@ or an exception is thrown.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Client_ErrorEventArgs__ctor_System_Exception_.md&amp;value=---%0Auid%3A%20Buttplug.Client.ErrorEventArgs.%23ctor(System.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Client_ErrorEventArgs__ctor_Exception_.md&amp;value=---%0Auid%3A%20Buttplug.Client.ErrorEventArgs.%23ctor(Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Client/ErrorEventArgs.cs/#L41">View Source</a>
   </span>
   <a id="Buttplug_Client_ErrorEventArgs__ctor_" data-uid="Buttplug.Client.ErrorEventArgs.#ctor*"></a>
-  <h4 id="Buttplug_Client_ErrorEventArgs__ctor_System_Exception_" data-uid="Buttplug.Client.ErrorEventArgs.#ctor(System.Exception)">ErrorEventArgs(Exception)</h4>
+  <h4 id="Buttplug_Client_ErrorEventArgs__ctor_Exception_" data-uid="Buttplug.Client.ErrorEventArgs.#ctor(Exception)">ErrorEventArgs(Exception)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Buttplug.Client.ErrorEventArgs.html">ErrorEventArgs</a> class, based on the
 exception being raised.</p>
 </div>
@@ -176,7 +152,7 @@ exception being raised.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="xref">Exception</span></td>
         <td><span class="parametername">aException</span></td>
         <td><p>The caught exception.</p>
 </td>
@@ -198,8 +174,7 @@ exception being raised.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public readonly Exception Exception</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Exception Exception</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,7 +186,7 @@ public readonly Exception Exception</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="xref">Exception</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -229,8 +204,7 @@ public readonly Exception Exception</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public readonly Error Message</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Error Message</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

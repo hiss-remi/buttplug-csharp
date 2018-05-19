@@ -85,47 +85,23 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Buttplug.Core.IButtplugDeviceInfoMessage.html">IButtplugDeviceInfoMessage</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Buttplug.Core.Messages.html">Buttplug.Core.Messages</a></h6>
   <h6><strong>Assembly</strong>: Buttplug.Core.dll</h6>
   <h5 id="Buttplug_Core_Messages_DeviceMessageInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DeviceMessageInfo : IButtplugDeviceInfoMessage</code></pre>
+    <pre><code class="lang-csharp hljs">public class DeviceMessageInfo : object, IButtplugDeviceInfoMessage</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_DeviceMessageInfo__ctor_System_UInt32_System_String_System_Collections_Generic_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.DeviceMessageInfo.%23ctor(System.UInt32%2CSystem.String%2CSystem.Collections.Generic.Dictionary%7BSystem.String%2CButtplug.Core.Messages.MessageAttributes%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_DeviceMessageInfo__ctor_System_UInt32_System_String_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.DeviceMessageInfo.%23ctor(System.UInt32%2CSystem.String%2CDictionary%7BSystem.String%2CButtplug.Core.Messages.MessageAttributes%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L192">View Source</a>
   </span>
   <a id="Buttplug_Core_Messages_DeviceMessageInfo__ctor_" data-uid="Buttplug.Core.Messages.DeviceMessageInfo.#ctor*"></a>
-  <h4 id="Buttplug_Core_Messages_DeviceMessageInfo__ctor_System_UInt32_System_String_System_Collections_Generic_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__" data-uid="Buttplug.Core.Messages.DeviceMessageInfo.#ctor(System.UInt32,System.String,System.Collections.Generic.Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})">DeviceMessageInfo(UInt32, String, Dictionary&lt;String, MessageAttributes&gt;)</h4>
+  <h4 id="Buttplug_Core_Messages_DeviceMessageInfo__ctor_System_UInt32_System_String_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__" data-uid="Buttplug.Core.Messages.DeviceMessageInfo.#ctor(System.UInt32,System.String,Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})">DeviceMessageInfo(UInt32, String, Dictionary&lt;String, MessageAttributes&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Buttplug.Core.Messages.DeviceMessageInfo.html">DeviceMessageInfo</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -156,7 +132,7 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="Buttplug.Core.Messages.MessageAttributes.html">MessageAttributes</a>&gt;</td>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="Buttplug.Core.Messages.MessageAttributes.html">MessageAttributes</a>&gt;</td>
         <td><span class="parametername">aMessages</span></td>
         <td><p>List of device messages/attributes supported</p>
 </td>
@@ -178,8 +154,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.Always)]
-public uint DeviceIndex</code></pre>
+    <pre><code class="lang-csharp hljs">public uint DeviceIndex</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,8 +184,7 @@ public uint DeviceIndex</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.Always, NullValueHandling = NullValueHandling.Ignore)]
-public Dictionary&lt;string, MessageAttributes&gt; DeviceMessages</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, MessageAttributes&gt; DeviceMessages</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,7 +196,7 @@ public Dictionary&lt;string, MessageAttributes&gt; DeviceMessages</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="Buttplug.Core.Messages.MessageAttributes.html">MessageAttributes</a>&gt;</td>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="Buttplug.Core.Messages.MessageAttributes.html">MessageAttributes</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -240,8 +214,7 @@ public Dictionary&lt;string, MessageAttributes&gt; DeviceMessages</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.Always)]
-public string DeviceName</code></pre>
+    <pre><code class="lang-csharp hljs">public string DeviceName</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -315,7 +288,7 @@ public string DeviceName</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="Buttplug.Core.Messages.MessageAttributes.html">MessageAttributes</a>&gt;</td>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="Buttplug.Core.Messages.MessageAttributes.html">MessageAttributes</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

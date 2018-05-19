@@ -19,13 +19,13 @@ references:
   commentId: M:Buttplug.Client.ButtplugClientDevice.#ctor(Buttplug.Core.IButtplugDeviceInfoMessage)
   fullName: Buttplug.Client.ButtplugClientDevice.ButtplugClientDevice(Buttplug.Core.IButtplugDeviceInfoMessage)
   nameWithType: ButtplugClientDevice.ButtplugClientDevice(IButtplugDeviceInfoMessage)
-- uid: Buttplug.Client.ButtplugClientDevice.#ctor(System.UInt32,System.String,System.Collections.Generic.Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
+- uid: Buttplug.Client.ButtplugClientDevice.#ctor(System.UInt32,System.String,Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
   name: ButtplugClientDevice(UInt32, String, Dictionary<String, MessageAttributes>)
-  href: api/Buttplug.Client/Buttplug.Client.ButtplugClientDevice.html#Buttplug_Client_ButtplugClientDevice__ctor_System_UInt32_System_String_System_Collections_Generic_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__
-  commentId: M:Buttplug.Client.ButtplugClientDevice.#ctor(System.UInt32,System.String,System.Collections.Generic.Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
+  href: api/Buttplug.Client/Buttplug.Client.ButtplugClientDevice.html#Buttplug_Client_ButtplugClientDevice__ctor_System_UInt32_System_String_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__
+  commentId: M:Buttplug.Client.ButtplugClientDevice.#ctor(System.UInt32,System.String,Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
   name.vb: ButtplugClientDevice(UInt32, String, Dictionary(Of String, MessageAttributes))
-  fullName: Buttplug.Client.ButtplugClientDevice.ButtplugClientDevice(System.UInt32, System.String, System.Collections.Generic.Dictionary<System.String, Buttplug.Core.Messages.MessageAttributes>)
-  fullName.vb: Buttplug.Client.ButtplugClientDevice.ButtplugClientDevice(System.UInt32, System.String, System.Collections.Generic.Dictionary(Of System.String, Buttplug.Core.Messages.MessageAttributes))
+  fullName: Buttplug.Client.ButtplugClientDevice.ButtplugClientDevice(System.UInt32, System.String, Dictionary<System.String, Buttplug.Core.Messages.MessageAttributes>)
+  fullName.vb: Buttplug.Client.ButtplugClientDevice.ButtplugClientDevice(System.UInt32, System.String, Dictionary(Of System.String, Buttplug.Core.Messages.MessageAttributes))
   nameWithType: ButtplugClientDevice.ButtplugClientDevice(UInt32, String, Dictionary<String, MessageAttributes>)
   nameWithType.vb: ButtplugClientDevice.ButtplugClientDevice(UInt32, String, Dictionary(Of String, MessageAttributes))
 - uid: Buttplug.Client.ButtplugClientDevice.#ctor*
@@ -72,11 +72,11 @@ references:
   isSpec: "True"
   fullName: Buttplug.Client.ButtplugWSClient.ButtplugWSClient
   nameWithType: ButtplugWSClient.ButtplugWSClient
-- uid: Buttplug.Client.ButtplugWSClient.Connect(System.Uri,System.Boolean)
+- uid: Buttplug.Client.ButtplugWSClient.Connect(Uri,System.Boolean)
   name: Connect(Uri, Boolean)
-  href: api/Buttplug.Client/Buttplug.Client.ButtplugWSClient.html#Buttplug_Client_ButtplugWSClient_Connect_System_Uri_System_Boolean_
-  commentId: M:Buttplug.Client.ButtplugWSClient.Connect(System.Uri,System.Boolean)
-  fullName: Buttplug.Client.ButtplugWSClient.Connect(System.Uri, System.Boolean)
+  href: api/Buttplug.Client/Buttplug.Client.ButtplugWSClient.html#Buttplug_Client_ButtplugWSClient_Connect_Uri_System_Boolean_
+  commentId: M:Buttplug.Client.ButtplugWSClient.Connect(Uri,System.Boolean)
+  fullName: Buttplug.Client.ButtplugWSClient.Connect(Uri, System.Boolean)
   nameWithType: ButtplugWSClient.Connect(Uri, Boolean)
 - uid: Buttplug.Client.ButtplugWSClient.Connect*
   name: Connect
@@ -341,11 +341,11 @@ references:
   commentId: M:Buttplug.Client.ErrorEventArgs.#ctor(Buttplug.Core.Messages.Error)
   fullName: Buttplug.Client.ErrorEventArgs.ErrorEventArgs(Buttplug.Core.Messages.Error)
   nameWithType: ErrorEventArgs.ErrorEventArgs(Error)
-- uid: Buttplug.Client.ErrorEventArgs.#ctor(System.Exception)
+- uid: Buttplug.Client.ErrorEventArgs.#ctor(Exception)
   name: ErrorEventArgs(Exception)
-  href: api/Buttplug.Client/Buttplug.Client.ErrorEventArgs.html#Buttplug_Client_ErrorEventArgs__ctor_System_Exception_
-  commentId: M:Buttplug.Client.ErrorEventArgs.#ctor(System.Exception)
-  fullName: Buttplug.Client.ErrorEventArgs.ErrorEventArgs(System.Exception)
+  href: api/Buttplug.Client/Buttplug.Client.ErrorEventArgs.html#Buttplug_Client_ErrorEventArgs__ctor_Exception_
+  commentId: M:Buttplug.Client.ErrorEventArgs.#ctor(Exception)
+  fullName: Buttplug.Client.ErrorEventArgs.ErrorEventArgs(Exception)
   nameWithType: ErrorEventArgs.ErrorEventArgs(Exception)
 - uid: Buttplug.Client.ErrorEventArgs.#ctor*
   name: ErrorEventArgs
@@ -509,13 +509,13 @@ references:
   commentId: T:Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper
   fullName: Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper
   nameWithType: ButtplugDevice.ButtplugDeviceWrapper
-- uid: Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.#ctor(System.Func{Buttplug.Core.ButtplugDeviceMessage,System.Threading.Tasks.Task{Buttplug.Core.ButtplugMessage}},Buttplug.Core.Messages.MessageAttributes)
+- uid: Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.#ctor(Func{Buttplug.Core.ButtplugDeviceMessage,Task{Buttplug.Core.ButtplugMessage}},Buttplug.Core.Messages.MessageAttributes)
   name: ButtplugDeviceWrapper(Func<ButtplugDeviceMessage, Task<ButtplugMessage>>, MessageAttributes)
-  href: api/Buttplug.Core/Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.html#Buttplug_Core_ButtplugDevice_ButtplugDeviceWrapper__ctor_System_Func_Buttplug_Core_ButtplugDeviceMessage_System_Threading_Tasks_Task_Buttplug_Core_ButtplugMessage___Buttplug_Core_Messages_MessageAttributes_
-  commentId: M:Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.#ctor(System.Func{Buttplug.Core.ButtplugDeviceMessage,System.Threading.Tasks.Task{Buttplug.Core.ButtplugMessage}},Buttplug.Core.Messages.MessageAttributes)
+  href: api/Buttplug.Core/Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.html#Buttplug_Core_ButtplugDevice_ButtplugDeviceWrapper__ctor_Func_Buttplug_Core_ButtplugDeviceMessage_Task_Buttplug_Core_ButtplugMessage___Buttplug_Core_Messages_MessageAttributes_
+  commentId: M:Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.#ctor(Func{Buttplug.Core.ButtplugDeviceMessage,Task{Buttplug.Core.ButtplugMessage}},Buttplug.Core.Messages.MessageAttributes)
   name.vb: ButtplugDeviceWrapper(Func(Of ButtplugDeviceMessage, Task(Of ButtplugMessage)), MessageAttributes)
-  fullName: Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.ButtplugDeviceWrapper(System.Func<Buttplug.Core.ButtplugDeviceMessage, System.Threading.Tasks.Task<Buttplug.Core.ButtplugMessage>>, Buttplug.Core.Messages.MessageAttributes)
-  fullName.vb: Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.ButtplugDeviceWrapper(System.Func(Of Buttplug.Core.ButtplugDeviceMessage, System.Threading.Tasks.Task(Of Buttplug.Core.ButtplugMessage)), Buttplug.Core.Messages.MessageAttributes)
+  fullName: Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.ButtplugDeviceWrapper(Func<Buttplug.Core.ButtplugDeviceMessage, Task<Buttplug.Core.ButtplugMessage>>, Buttplug.Core.Messages.MessageAttributes)
+  fullName.vb: Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.ButtplugDeviceWrapper(Func(Of Buttplug.Core.ButtplugDeviceMessage, Task(Of Buttplug.Core.ButtplugMessage)), Buttplug.Core.Messages.MessageAttributes)
   nameWithType: ButtplugDevice.ButtplugDeviceWrapper.ButtplugDeviceWrapper(Func<ButtplugDeviceMessage, Task<ButtplugMessage>>, MessageAttributes)
   nameWithType.vb: ButtplugDevice.ButtplugDeviceWrapper.ButtplugDeviceWrapper(Func(Of ButtplugDeviceMessage, Task(Of ButtplugMessage)), MessageAttributes)
 - uid: Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.#ctor*
@@ -582,11 +582,11 @@ references:
   isSpec: "True"
   fullName: Buttplug.Core.ButtplugDevice.GetAllowedMessageTypes
   nameWithType: ButtplugDevice.GetAllowedMessageTypes
-- uid: Buttplug.Core.ButtplugDevice.GetMessageAttrs(System.Type)
+- uid: Buttplug.Core.ButtplugDevice.GetMessageAttrs(Type)
   name: GetMessageAttrs(Type)
-  href: api/Buttplug.Core/Buttplug.Core.ButtplugDevice.html#Buttplug_Core_ButtplugDevice_GetMessageAttrs_System_Type_
-  commentId: M:Buttplug.Core.ButtplugDevice.GetMessageAttrs(System.Type)
-  fullName: Buttplug.Core.ButtplugDevice.GetMessageAttrs(System.Type)
+  href: api/Buttplug.Core/Buttplug.Core.ButtplugDevice.html#Buttplug_Core_ButtplugDevice_GetMessageAttrs_Type_
+  commentId: M:Buttplug.Core.ButtplugDevice.GetMessageAttrs(Type)
+  fullName: Buttplug.Core.ButtplugDevice.GetMessageAttrs(Type)
   nameWithType: ButtplugDevice.GetMessageAttrs(Type)
 - uid: Buttplug.Core.ButtplugDevice.GetMessageAttrs*
   name: GetMessageAttrs
@@ -704,11 +704,11 @@ references:
   commentId: T:Buttplug.Core.ButtplugDeviceMessage
   fullName: Buttplug.Core.ButtplugDeviceMessage
   nameWithType: ButtplugDeviceMessage
-- uid: Buttplug.Core.ButtplugDeviceMessage.#ctor(System.UInt32,System.UInt32,System.UInt32,System.Type)
+- uid: Buttplug.Core.ButtplugDeviceMessage.#ctor(System.UInt32,System.UInt32,System.UInt32,Type)
   name: ButtplugDeviceMessage(UInt32, UInt32, UInt32, Type)
-  href: api/Buttplug.Core/Buttplug.Core.ButtplugDeviceMessage.html#Buttplug_Core_ButtplugDeviceMessage__ctor_System_UInt32_System_UInt32_System_UInt32_System_Type_
-  commentId: M:Buttplug.Core.ButtplugDeviceMessage.#ctor(System.UInt32,System.UInt32,System.UInt32,System.Type)
-  fullName: Buttplug.Core.ButtplugDeviceMessage.ButtplugDeviceMessage(System.UInt32, System.UInt32, System.UInt32, System.Type)
+  href: api/Buttplug.Core/Buttplug.Core.ButtplugDeviceMessage.html#Buttplug_Core_ButtplugDeviceMessage__ctor_System_UInt32_System_UInt32_System_UInt32_Type_
+  commentId: M:Buttplug.Core.ButtplugDeviceMessage.#ctor(System.UInt32,System.UInt32,System.UInt32,Type)
+  fullName: Buttplug.Core.ButtplugDeviceMessage.ButtplugDeviceMessage(System.UInt32, System.UInt32, System.UInt32, Type)
   nameWithType: ButtplugDeviceMessage.ButtplugDeviceMessage(UInt32, UInt32, UInt32, Type)
 - uid: Buttplug.Core.ButtplugDeviceMessage.#ctor*
   name: ButtplugDeviceMessage
@@ -768,13 +768,13 @@ references:
   commentId: M:Buttplug.Core.ButtplugJsonMessageParser.Serialize(Buttplug.Core.ButtplugMessage,System.UInt32)
   fullName: Buttplug.Core.ButtplugJsonMessageParser.Serialize(Buttplug.Core.ButtplugMessage, System.UInt32)
   nameWithType: ButtplugJsonMessageParser.Serialize(ButtplugMessage, UInt32)
-- uid: Buttplug.Core.ButtplugJsonMessageParser.Serialize(System.Collections.Generic.IEnumerable{Buttplug.Core.ButtplugMessage},System.UInt32)
+- uid: Buttplug.Core.ButtplugJsonMessageParser.Serialize(IEnumerable{Buttplug.Core.ButtplugMessage},System.UInt32)
   name: Serialize(IEnumerable<ButtplugMessage>, UInt32)
-  href: api/Buttplug.Core/Buttplug.Core.ButtplugJsonMessageParser.html#Buttplug_Core_ButtplugJsonMessageParser_Serialize_System_Collections_Generic_IEnumerable_Buttplug_Core_ButtplugMessage__System_UInt32_
-  commentId: M:Buttplug.Core.ButtplugJsonMessageParser.Serialize(System.Collections.Generic.IEnumerable{Buttplug.Core.ButtplugMessage},System.UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.ButtplugJsonMessageParser.html#Buttplug_Core_ButtplugJsonMessageParser_Serialize_IEnumerable_Buttplug_Core_ButtplugMessage__System_UInt32_
+  commentId: M:Buttplug.Core.ButtplugJsonMessageParser.Serialize(IEnumerable{Buttplug.Core.ButtplugMessage},System.UInt32)
   name.vb: Serialize(IEnumerable(Of ButtplugMessage), UInt32)
-  fullName: Buttplug.Core.ButtplugJsonMessageParser.Serialize(System.Collections.Generic.IEnumerable<Buttplug.Core.ButtplugMessage>, System.UInt32)
-  fullName.vb: Buttplug.Core.ButtplugJsonMessageParser.Serialize(System.Collections.Generic.IEnumerable(Of Buttplug.Core.ButtplugMessage), System.UInt32)
+  fullName: Buttplug.Core.ButtplugJsonMessageParser.Serialize(IEnumerable<Buttplug.Core.ButtplugMessage>, System.UInt32)
+  fullName.vb: Buttplug.Core.ButtplugJsonMessageParser.Serialize(IEnumerable(Of Buttplug.Core.ButtplugMessage), System.UInt32)
   nameWithType: ButtplugJsonMessageParser.Serialize(IEnumerable<ButtplugMessage>, UInt32)
   nameWithType.vb: ButtplugJsonMessageParser.Serialize(IEnumerable(Of ButtplugMessage), UInt32)
 - uid: Buttplug.Core.ButtplugJsonMessageParser.Serialize*
@@ -838,11 +838,11 @@ references:
   commentId: T:Buttplug.Core.ButtplugLogManager
   fullName: Buttplug.Core.ButtplugLogManager
   nameWithType: ButtplugLogManager
-- uid: Buttplug.Core.ButtplugLogManager.GetLogger(System.Type)
+- uid: Buttplug.Core.ButtplugLogManager.GetLogger(Type)
   name: GetLogger(Type)
-  href: api/Buttplug.Core/Buttplug.Core.ButtplugLogManager.html#Buttplug_Core_ButtplugLogManager_GetLogger_System_Type_
-  commentId: M:Buttplug.Core.ButtplugLogManager.GetLogger(System.Type)
-  fullName: Buttplug.Core.ButtplugLogManager.GetLogger(System.Type)
+  href: api/Buttplug.Core/Buttplug.Core.ButtplugLogManager.html#Buttplug_Core_ButtplugLogManager_GetLogger_Type_
+  commentId: M:Buttplug.Core.ButtplugLogManager.GetLogger(Type)
+  fullName: Buttplug.Core.ButtplugLogManager.GetLogger(Type)
   nameWithType: ButtplugLogManager.GetLogger(Type)
 - uid: Buttplug.Core.ButtplugLogManager.GetLogger*
   name: GetLogger
@@ -908,11 +908,11 @@ references:
   commentId: T:Buttplug.Core.ButtplugMessage
   fullName: Buttplug.Core.ButtplugMessage
   nameWithType: ButtplugMessage
-- uid: Buttplug.Core.ButtplugMessage.#ctor(System.UInt32,System.UInt32,System.Type)
+- uid: Buttplug.Core.ButtplugMessage.#ctor(System.UInt32,System.UInt32,Type)
   name: ButtplugMessage(UInt32, UInt32, Type)
-  href: api/Buttplug.Core/Buttplug.Core.ButtplugMessage.html#Buttplug_Core_ButtplugMessage__ctor_System_UInt32_System_UInt32_System_Type_
-  commentId: M:Buttplug.Core.ButtplugMessage.#ctor(System.UInt32,System.UInt32,System.Type)
-  fullName: Buttplug.Core.ButtplugMessage.ButtplugMessage(System.UInt32, System.UInt32, System.Type)
+  href: api/Buttplug.Core/Buttplug.Core.ButtplugMessage.html#Buttplug_Core_ButtplugMessage__ctor_System_UInt32_System_UInt32_Type_
+  commentId: M:Buttplug.Core.ButtplugMessage.#ctor(System.UInt32,System.UInt32,Type)
+  fullName: Buttplug.Core.ButtplugMessage.ButtplugMessage(System.UInt32, System.UInt32, Type)
   nameWithType: ButtplugMessage.ButtplugMessage(UInt32, UInt32, Type)
 - uid: Buttplug.Core.ButtplugMessage.#ctor*
   name: ButtplugMessage
@@ -1048,11 +1048,11 @@ references:
   isSpec: "True"
   fullName: Buttplug.Core.IButtplugDevice.GetAllowedMessageTypes
   nameWithType: IButtplugDevice.GetAllowedMessageTypes
-- uid: Buttplug.Core.IButtplugDevice.GetMessageAttrs(System.Type)
+- uid: Buttplug.Core.IButtplugDevice.GetMessageAttrs(Type)
   name: GetMessageAttrs(Type)
-  href: api/Buttplug.Core/Buttplug.Core.IButtplugDevice.html#Buttplug_Core_IButtplugDevice_GetMessageAttrs_System_Type_
-  commentId: M:Buttplug.Core.IButtplugDevice.GetMessageAttrs(System.Type)
-  fullName: Buttplug.Core.IButtplugDevice.GetMessageAttrs(System.Type)
+  href: api/Buttplug.Core/Buttplug.Core.IButtplugDevice.html#Buttplug_Core_IButtplugDevice_GetMessageAttrs_Type_
+  commentId: M:Buttplug.Core.IButtplugDevice.GetMessageAttrs(Type)
+  fullName: Buttplug.Core.IButtplugDevice.GetMessageAttrs(Type)
   nameWithType: IButtplugDevice.GetMessageAttrs(Type)
 - uid: Buttplug.Core.IButtplugDevice.GetMessageAttrs*
   name: GetMessageAttrs
@@ -1248,11 +1248,11 @@ references:
   isSpec: "True"
   fullName: Buttplug.Core.IButtplugLog.Info
   nameWithType: IButtplugLog.Info
-- uid: Buttplug.Core.IButtplugLog.LogException(System.Exception,System.Boolean,System.String)
+- uid: Buttplug.Core.IButtplugLog.LogException(Exception,System.Boolean,System.String)
   name: LogException(Exception, Boolean, String)
-  href: api/Buttplug.Core/Buttplug.Core.IButtplugLog.html#Buttplug_Core_IButtplugLog_LogException_System_Exception_System_Boolean_System_String_
-  commentId: M:Buttplug.Core.IButtplugLog.LogException(System.Exception,System.Boolean,System.String)
-  fullName: Buttplug.Core.IButtplugLog.LogException(System.Exception, System.Boolean, System.String)
+  href: api/Buttplug.Core/Buttplug.Core.IButtplugLog.html#Buttplug_Core_IButtplugLog_LogException_Exception_System_Boolean_System_String_
+  commentId: M:Buttplug.Core.IButtplugLog.LogException(Exception,System.Boolean,System.String)
+  fullName: Buttplug.Core.IButtplugLog.LogException(Exception, System.Boolean, System.String)
   nameWithType: IButtplugLog.LogException(Exception, Boolean, String)
 - uid: Buttplug.Core.IButtplugLog.LogException*
   name: LogException
@@ -1299,11 +1299,11 @@ references:
   commentId: T:Buttplug.Core.IButtplugLogManager
   fullName: Buttplug.Core.IButtplugLogManager
   nameWithType: IButtplugLogManager
-- uid: Buttplug.Core.IButtplugLogManager.GetLogger(System.Type)
+- uid: Buttplug.Core.IButtplugLogManager.GetLogger(Type)
   name: GetLogger(Type)
-  href: api/Buttplug.Core/Buttplug.Core.IButtplugLogManager.html#Buttplug_Core_IButtplugLogManager_GetLogger_System_Type_
-  commentId: M:Buttplug.Core.IButtplugLogManager.GetLogger(System.Type)
-  fullName: Buttplug.Core.IButtplugLogManager.GetLogger(System.Type)
+  href: api/Buttplug.Core/Buttplug.Core.IButtplugLogManager.html#Buttplug_Core_IButtplugLogManager_GetLogger_Type_
+  commentId: M:Buttplug.Core.IButtplugLogManager.GetLogger(Type)
+  fullName: Buttplug.Core.IButtplugLogManager.GetLogger(Type)
   nameWithType: IButtplugLogManager.GetLogger(Type)
 - uid: Buttplug.Core.IButtplugLogManager.GetLogger*
   name: GetLogger
@@ -1343,11 +1343,11 @@ references:
   commentId: T:Buttplug.Core.LogExceptionEventArgs
   fullName: Buttplug.Core.LogExceptionEventArgs
   nameWithType: LogExceptionEventArgs
-- uid: Buttplug.Core.LogExceptionEventArgs.#ctor(System.Exception,System.Boolean,System.String)
+- uid: Buttplug.Core.LogExceptionEventArgs.#ctor(Exception,System.Boolean,System.String)
   name: LogExceptionEventArgs(Exception, Boolean, String)
-  href: api/Buttplug.Core/Buttplug.Core.LogExceptionEventArgs.html#Buttplug_Core_LogExceptionEventArgs__ctor_System_Exception_System_Boolean_System_String_
-  commentId: M:Buttplug.Core.LogExceptionEventArgs.#ctor(System.Exception,System.Boolean,System.String)
-  fullName: Buttplug.Core.LogExceptionEventArgs.LogExceptionEventArgs(System.Exception, System.Boolean, System.String)
+  href: api/Buttplug.Core/Buttplug.Core.LogExceptionEventArgs.html#Buttplug_Core_LogExceptionEventArgs__ctor_Exception_System_Boolean_System_String_
+  commentId: M:Buttplug.Core.LogExceptionEventArgs.#ctor(Exception,System.Boolean,System.String)
+  fullName: Buttplug.Core.LogExceptionEventArgs.LogExceptionEventArgs(Exception, System.Boolean, System.String)
   nameWithType: LogExceptionEventArgs.LogExceptionEventArgs(Exception, Boolean, String)
 - uid: Buttplug.Core.LogExceptionEventArgs.#ctor*
   name: LogExceptionEventArgs
@@ -1439,13 +1439,13 @@ references:
   commentId: T:Buttplug.Core.Messages.DeviceAdded
   fullName: Buttplug.Core.Messages.DeviceAdded
   nameWithType: DeviceAdded
-- uid: Buttplug.Core.Messages.DeviceAdded.#ctor(System.UInt32,System.String,System.Collections.Generic.Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
+- uid: Buttplug.Core.Messages.DeviceAdded.#ctor(System.UInt32,System.String,Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
   name: DeviceAdded(UInt32, String, Dictionary<String, MessageAttributes>)
-  href: api/Buttplug.Core/Buttplug.Core.Messages.DeviceAdded.html#Buttplug_Core_Messages_DeviceAdded__ctor_System_UInt32_System_String_System_Collections_Generic_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__
-  commentId: M:Buttplug.Core.Messages.DeviceAdded.#ctor(System.UInt32,System.String,System.Collections.Generic.Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
+  href: api/Buttplug.Core/Buttplug.Core.Messages.DeviceAdded.html#Buttplug_Core_Messages_DeviceAdded__ctor_System_UInt32_System_String_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__
+  commentId: M:Buttplug.Core.Messages.DeviceAdded.#ctor(System.UInt32,System.String,Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
   name.vb: DeviceAdded(UInt32, String, Dictionary(Of String, MessageAttributes))
-  fullName: Buttplug.Core.Messages.DeviceAdded.DeviceAdded(System.UInt32, System.String, System.Collections.Generic.Dictionary<System.String, Buttplug.Core.Messages.MessageAttributes>)
-  fullName.vb: Buttplug.Core.Messages.DeviceAdded.DeviceAdded(System.UInt32, System.String, System.Collections.Generic.Dictionary(Of System.String, Buttplug.Core.Messages.MessageAttributes))
+  fullName: Buttplug.Core.Messages.DeviceAdded.DeviceAdded(System.UInt32, System.String, Dictionary<System.String, Buttplug.Core.Messages.MessageAttributes>)
+  fullName.vb: Buttplug.Core.Messages.DeviceAdded.DeviceAdded(System.UInt32, System.String, Dictionary(Of System.String, Buttplug.Core.Messages.MessageAttributes))
   nameWithType: DeviceAdded.DeviceAdded(UInt32, String, Dictionary<String, MessageAttributes>)
   nameWithType.vb: DeviceAdded.DeviceAdded(UInt32, String, Dictionary(Of String, MessageAttributes))
 - uid: Buttplug.Core.Messages.DeviceAdded.#ctor*
@@ -1638,13 +1638,13 @@ references:
   commentId: T:Buttplug.Core.Messages.DeviceMessageInfo
   fullName: Buttplug.Core.Messages.DeviceMessageInfo
   nameWithType: DeviceMessageInfo
-- uid: Buttplug.Core.Messages.DeviceMessageInfo.#ctor(System.UInt32,System.String,System.Collections.Generic.Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
+- uid: Buttplug.Core.Messages.DeviceMessageInfo.#ctor(System.UInt32,System.String,Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
   name: DeviceMessageInfo(UInt32, String, Dictionary<String, MessageAttributes>)
-  href: api/Buttplug.Core/Buttplug.Core.Messages.DeviceMessageInfo.html#Buttplug_Core_Messages_DeviceMessageInfo__ctor_System_UInt32_System_String_System_Collections_Generic_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__
-  commentId: M:Buttplug.Core.Messages.DeviceMessageInfo.#ctor(System.UInt32,System.String,System.Collections.Generic.Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
+  href: api/Buttplug.Core/Buttplug.Core.Messages.DeviceMessageInfo.html#Buttplug_Core_Messages_DeviceMessageInfo__ctor_System_UInt32_System_String_Dictionary_System_String_Buttplug_Core_Messages_MessageAttributes__
+  commentId: M:Buttplug.Core.Messages.DeviceMessageInfo.#ctor(System.UInt32,System.String,Dictionary{System.String,Buttplug.Core.Messages.MessageAttributes})
   name.vb: DeviceMessageInfo(UInt32, String, Dictionary(Of String, MessageAttributes))
-  fullName: Buttplug.Core.Messages.DeviceMessageInfo.DeviceMessageInfo(System.UInt32, System.String, System.Collections.Generic.Dictionary<System.String, Buttplug.Core.Messages.MessageAttributes>)
-  fullName.vb: Buttplug.Core.Messages.DeviceMessageInfo.DeviceMessageInfo(System.UInt32, System.String, System.Collections.Generic.Dictionary(Of System.String, Buttplug.Core.Messages.MessageAttributes))
+  fullName: Buttplug.Core.Messages.DeviceMessageInfo.DeviceMessageInfo(System.UInt32, System.String, Dictionary<System.String, Buttplug.Core.Messages.MessageAttributes>)
+  fullName.vb: Buttplug.Core.Messages.DeviceMessageInfo.DeviceMessageInfo(System.UInt32, System.String, Dictionary(Of System.String, Buttplug.Core.Messages.MessageAttributes))
   nameWithType: DeviceMessageInfo.DeviceMessageInfo(UInt32, String, Dictionary<String, MessageAttributes>)
   nameWithType.vb: DeviceMessageInfo.DeviceMessageInfo(UInt32, String, Dictionary(Of String, MessageAttributes))
 - uid: Buttplug.Core.Messages.DeviceMessageInfo.#ctor*
@@ -1995,13 +1995,13 @@ references:
   commentId: T:Buttplug.Core.Messages.LinearCmd
   fullName: Buttplug.Core.Messages.LinearCmd
   nameWithType: LinearCmd
-- uid: Buttplug.Core.Messages.LinearCmd.#ctor(System.UInt32,System.Collections.Generic.List{Buttplug.Core.Messages.LinearCmd.VectorSubcommands},System.UInt32)
+- uid: Buttplug.Core.Messages.LinearCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.LinearCmd.VectorSubcommands},System.UInt32)
   name: LinearCmd(UInt32, List<LinearCmd.VectorSubcommands>, UInt32)
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd__ctor_System_UInt32_System_Collections_Generic_List_Buttplug_Core_Messages_LinearCmd_VectorSubcommands__System_UInt32_
-  commentId: M:Buttplug.Core.Messages.LinearCmd.#ctor(System.UInt32,System.Collections.Generic.List{Buttplug.Core.Messages.LinearCmd.VectorSubcommands},System.UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd__ctor_System_UInt32_List_Buttplug_Core_Messages_LinearCmd_VectorSubcommands__System_UInt32_
+  commentId: M:Buttplug.Core.Messages.LinearCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.LinearCmd.VectorSubcommands},System.UInt32)
   name.vb: LinearCmd(UInt32, List(Of LinearCmd.VectorSubcommands), UInt32)
-  fullName: Buttplug.Core.Messages.LinearCmd.LinearCmd(System.UInt32, System.Collections.Generic.List<Buttplug.Core.Messages.LinearCmd.VectorSubcommands>, System.UInt32)
-  fullName.vb: Buttplug.Core.Messages.LinearCmd.LinearCmd(System.UInt32, System.Collections.Generic.List(Of Buttplug.Core.Messages.LinearCmd.VectorSubcommands), System.UInt32)
+  fullName: Buttplug.Core.Messages.LinearCmd.LinearCmd(System.UInt32, List<Buttplug.Core.Messages.LinearCmd.VectorSubcommands>, System.UInt32)
+  fullName.vb: Buttplug.Core.Messages.LinearCmd.LinearCmd(System.UInt32, List(Of Buttplug.Core.Messages.LinearCmd.VectorSubcommands), System.UInt32)
   nameWithType: LinearCmd.LinearCmd(UInt32, List<LinearCmd.VectorSubcommands>, UInt32)
   nameWithType.vb: LinearCmd.LinearCmd(UInt32, List(Of LinearCmd.VectorSubcommands), UInt32)
 - uid: Buttplug.Core.Messages.LinearCmd.#ctor*
@@ -2260,13 +2260,13 @@ references:
   commentId: T:Buttplug.Core.Messages.RotateCmd
   fullName: Buttplug.Core.Messages.RotateCmd
   nameWithType: RotateCmd
-- uid: Buttplug.Core.Messages.RotateCmd.#ctor(System.UInt32,System.Collections.Generic.List{Buttplug.Core.Messages.RotateCmd.RotateSubcommand},System.UInt32)
+- uid: Buttplug.Core.Messages.RotateCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.RotateCmd.RotateSubcommand},System.UInt32)
   name: RotateCmd(UInt32, List<RotateCmd.RotateSubcommand>, UInt32)
-  href: api/Buttplug.Core/Buttplug.Core.Messages.RotateCmd.html#Buttplug_Core_Messages_RotateCmd__ctor_System_UInt32_System_Collections_Generic_List_Buttplug_Core_Messages_RotateCmd_RotateSubcommand__System_UInt32_
-  commentId: M:Buttplug.Core.Messages.RotateCmd.#ctor(System.UInt32,System.Collections.Generic.List{Buttplug.Core.Messages.RotateCmd.RotateSubcommand},System.UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.RotateCmd.html#Buttplug_Core_Messages_RotateCmd__ctor_System_UInt32_List_Buttplug_Core_Messages_RotateCmd_RotateSubcommand__System_UInt32_
+  commentId: M:Buttplug.Core.Messages.RotateCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.RotateCmd.RotateSubcommand},System.UInt32)
   name.vb: RotateCmd(UInt32, List(Of RotateCmd.RotateSubcommand), UInt32)
-  fullName: Buttplug.Core.Messages.RotateCmd.RotateCmd(System.UInt32, System.Collections.Generic.List<Buttplug.Core.Messages.RotateCmd.RotateSubcommand>, System.UInt32)
-  fullName.vb: Buttplug.Core.Messages.RotateCmd.RotateCmd(System.UInt32, System.Collections.Generic.List(Of Buttplug.Core.Messages.RotateCmd.RotateSubcommand), System.UInt32)
+  fullName: Buttplug.Core.Messages.RotateCmd.RotateCmd(System.UInt32, List<Buttplug.Core.Messages.RotateCmd.RotateSubcommand>, System.UInt32)
+  fullName.vb: Buttplug.Core.Messages.RotateCmd.RotateCmd(System.UInt32, List(Of Buttplug.Core.Messages.RotateCmd.RotateSubcommand), System.UInt32)
   nameWithType: RotateCmd.RotateCmd(UInt32, List<RotateCmd.RotateSubcommand>, UInt32)
   nameWithType.vb: RotateCmd.RotateCmd(UInt32, List(Of RotateCmd.RotateSubcommand), UInt32)
 - uid: Buttplug.Core.Messages.RotateCmd.#ctor*
@@ -2546,13 +2546,13 @@ references:
   commentId: T:Buttplug.Core.Messages.VibrateCmd
   fullName: Buttplug.Core.Messages.VibrateCmd
   nameWithType: VibrateCmd
-- uid: Buttplug.Core.Messages.VibrateCmd.#ctor(System.UInt32,System.Collections.Generic.List{Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand},System.UInt32)
+- uid: Buttplug.Core.Messages.VibrateCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand},System.UInt32)
   name: VibrateCmd(UInt32, List<VibrateCmd.VibrateSubcommand>, UInt32)
-  href: api/Buttplug.Core/Buttplug.Core.Messages.VibrateCmd.html#Buttplug_Core_Messages_VibrateCmd__ctor_System_UInt32_System_Collections_Generic_List_Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand__System_UInt32_
-  commentId: M:Buttplug.Core.Messages.VibrateCmd.#ctor(System.UInt32,System.Collections.Generic.List{Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand},System.UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.VibrateCmd.html#Buttplug_Core_Messages_VibrateCmd__ctor_System_UInt32_List_Buttplug_Core_Messages_VibrateCmd_VibrateSubcommand__System_UInt32_
+  commentId: M:Buttplug.Core.Messages.VibrateCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand},System.UInt32)
   name.vb: VibrateCmd(UInt32, List(Of VibrateCmd.VibrateSubcommand), UInt32)
-  fullName: Buttplug.Core.Messages.VibrateCmd.VibrateCmd(System.UInt32, System.Collections.Generic.List<Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand>, System.UInt32)
-  fullName.vb: Buttplug.Core.Messages.VibrateCmd.VibrateCmd(System.UInt32, System.Collections.Generic.List(Of Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand), System.UInt32)
+  fullName: Buttplug.Core.Messages.VibrateCmd.VibrateCmd(System.UInt32, List<Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand>, System.UInt32)
+  fullName.vb: Buttplug.Core.Messages.VibrateCmd.VibrateCmd(System.UInt32, List(Of Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand), System.UInt32)
   nameWithType: VibrateCmd.VibrateCmd(UInt32, List<VibrateCmd.VibrateSubcommand>, UInt32)
   nameWithType.vb: VibrateCmd.VibrateCmd(UInt32, List(Of VibrateCmd.VibrateSubcommand), UInt32)
 - uid: Buttplug.Core.Messages.VibrateCmd.#ctor*
@@ -2656,13 +2656,13 @@ references:
   commentId: T:Buttplug.Logging.ILog
   fullName: Buttplug.Logging.ILog
   nameWithType: ILog
-- uid: Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel,System.Func{System.String},System.Exception,System.Object[])
+- uid: Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel,Func{System.String},Exception,System.Object[])
   name: Log(LogLevel, Func<String>, Exception, Object[])
-  href: api/Buttplug.Core/Buttplug.Logging.ILog.html#Buttplug_Logging_ILog_Log_Buttplug_Logging_LogLevel_System_Func_System_String__System_Exception_System_Object___
-  commentId: M:Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel,System.Func{System.String},System.Exception,System.Object[])
+  href: api/Buttplug.Core/Buttplug.Logging.ILog.html#Buttplug_Logging_ILog_Log_Buttplug_Logging_LogLevel_Func_System_String__Exception_System_Object___
+  commentId: M:Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel,Func{System.String},Exception,System.Object[])
   name.vb: Log(LogLevel, Func(Of String), Exception, Object())
-  fullName: Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel, System.Func<System.String>, System.Exception, System.Object[])
-  fullName.vb: Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel, System.Func(Of System.String), System.Exception, System.Object())
+  fullName: Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel, Func<System.String>, Exception, System.Object[])
+  fullName.vb: Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel, Func(Of System.String), Exception, System.Object())
   nameWithType: ILog.Log(LogLevel, Func<String>, Exception, Object[])
   nameWithType.vb: ILog.Log(LogLevel, Func(Of String), Exception, Object())
 - uid: Buttplug.Logging.ILog.Log*
@@ -2723,13 +2723,13 @@ references:
   commentId: T:Buttplug.Logging.LogExtensions
   fullName: Buttplug.Logging.LogExtensions
   nameWithType: LogExtensions
-- uid: Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog,System.Func{System.String})
+- uid: Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog,Func{System.String})
   name: Debug(ILog, Func<String>)
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Debug_Buttplug_Logging_ILog_System_Func_System_String__
-  commentId: M:Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog,System.Func{System.String})
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Debug_Buttplug_Logging_ILog_Func_System_String__
+  commentId: M:Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog,Func{System.String})
   name.vb: Debug(ILog, Func(Of String))
-  fullName: Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog, System.Func<System.String>)
-  fullName.vb: Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog, System.Func(Of System.String))
+  fullName: Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog, Func<System.String>)
+  fullName.vb: Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog, Func(Of System.String))
   nameWithType: LogExtensions.Debug(ILog, Func<String>)
   nameWithType.vb: LogExtensions.Debug(ILog, Func(Of String))
 - uid: Buttplug.Logging.LogExtensions.Debug(Buttplug.Logging.ILog,System.String)
@@ -2745,19 +2745,19 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.Debug
   nameWithType: LogExtensions.Debug
-- uid: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog,System.String,System.Exception)
+- uid: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog,System.String,Exception)
   name: DebugException(ILog, String, Exception)
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugException_Buttplug_Logging_ILog_System_String_System_Exception_
-  commentId: M:Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog,System.String,System.Exception)
-  fullName: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog, System.String, System.Exception)
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugException_Buttplug_Logging_ILog_System_String_Exception_
+  commentId: M:Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog,System.String,Exception)
+  fullName: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog, System.String, Exception)
   nameWithType: LogExtensions.DebugException(ILog, String, Exception)
-- uid: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+- uid: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name: DebugException(ILog, String, Exception, Object[])
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___
-  commentId: M:Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugException_Buttplug_Logging_ILog_System_String_Exception_System_Object___
+  commentId: M:Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name.vb: DebugException(ILog, String, Exception, Object())
-  fullName: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object[])
-  fullName.vb: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object())
+  fullName: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog, System.String, Exception, System.Object[])
+  fullName.vb: Buttplug.Logging.LogExtensions.DebugException(Buttplug.Logging.ILog, System.String, Exception, System.Object())
   nameWithType: LogExtensions.DebugException(ILog, String, Exception, Object[])
   nameWithType.vb: LogExtensions.DebugException(ILog, String, Exception, Object())
 - uid: Buttplug.Logging.LogExtensions.DebugException*
@@ -2783,13 +2783,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.DebugFormat
   nameWithType: LogExtensions.DebugFormat
-- uid: Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog,System.Func{System.String})
+- uid: Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog,Func{System.String})
   name: Error(ILog, Func<String>)
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Error_Buttplug_Logging_ILog_System_Func_System_String__
-  commentId: M:Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog,System.Func{System.String})
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Error_Buttplug_Logging_ILog_Func_System_String__
+  commentId: M:Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog,Func{System.String})
   name.vb: Error(ILog, Func(Of String))
-  fullName: Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog, System.Func<System.String>)
-  fullName.vb: Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog, System.Func(Of System.String))
+  fullName: Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog, Func<System.String>)
+  fullName.vb: Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog, Func(Of System.String))
   nameWithType: LogExtensions.Error(ILog, Func<String>)
   nameWithType.vb: LogExtensions.Error(ILog, Func(Of String))
 - uid: Buttplug.Logging.LogExtensions.Error(Buttplug.Logging.ILog,System.String)
@@ -2805,13 +2805,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.Error
   nameWithType: LogExtensions.Error
-- uid: Buttplug.Logging.LogExtensions.ErrorException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+- uid: Buttplug.Logging.LogExtensions.ErrorException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name: ErrorException(ILog, String, Exception, Object[])
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_ErrorException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___
-  commentId: M:Buttplug.Logging.LogExtensions.ErrorException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_ErrorException_Buttplug_Logging_ILog_System_String_Exception_System_Object___
+  commentId: M:Buttplug.Logging.LogExtensions.ErrorException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name.vb: ErrorException(ILog, String, Exception, Object())
-  fullName: Buttplug.Logging.LogExtensions.ErrorException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object[])
-  fullName.vb: Buttplug.Logging.LogExtensions.ErrorException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object())
+  fullName: Buttplug.Logging.LogExtensions.ErrorException(Buttplug.Logging.ILog, System.String, Exception, System.Object[])
+  fullName.vb: Buttplug.Logging.LogExtensions.ErrorException(Buttplug.Logging.ILog, System.String, Exception, System.Object())
   nameWithType: LogExtensions.ErrorException(ILog, String, Exception, Object[])
   nameWithType.vb: LogExtensions.ErrorException(ILog, String, Exception, Object())
 - uid: Buttplug.Logging.LogExtensions.ErrorException*
@@ -2837,13 +2837,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.ErrorFormat
   nameWithType: LogExtensions.ErrorFormat
-- uid: Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog,System.Func{System.String})
+- uid: Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog,Func{System.String})
   name: Fatal(ILog, Func<String>)
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Fatal_Buttplug_Logging_ILog_System_Func_System_String__
-  commentId: M:Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog,System.Func{System.String})
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Fatal_Buttplug_Logging_ILog_Func_System_String__
+  commentId: M:Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog,Func{System.String})
   name.vb: Fatal(ILog, Func(Of String))
-  fullName: Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog, System.Func<System.String>)
-  fullName.vb: Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog, System.Func(Of System.String))
+  fullName: Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog, Func<System.String>)
+  fullName.vb: Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog, Func(Of System.String))
   nameWithType: LogExtensions.Fatal(ILog, Func<String>)
   nameWithType.vb: LogExtensions.Fatal(ILog, Func(Of String))
 - uid: Buttplug.Logging.LogExtensions.Fatal(Buttplug.Logging.ILog,System.String)
@@ -2859,13 +2859,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.Fatal
   nameWithType: LogExtensions.Fatal
-- uid: Buttplug.Logging.LogExtensions.FatalException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+- uid: Buttplug.Logging.LogExtensions.FatalException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name: FatalException(ILog, String, Exception, Object[])
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_FatalException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___
-  commentId: M:Buttplug.Logging.LogExtensions.FatalException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_FatalException_Buttplug_Logging_ILog_System_String_Exception_System_Object___
+  commentId: M:Buttplug.Logging.LogExtensions.FatalException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name.vb: FatalException(ILog, String, Exception, Object())
-  fullName: Buttplug.Logging.LogExtensions.FatalException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object[])
-  fullName.vb: Buttplug.Logging.LogExtensions.FatalException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object())
+  fullName: Buttplug.Logging.LogExtensions.FatalException(Buttplug.Logging.ILog, System.String, Exception, System.Object[])
+  fullName.vb: Buttplug.Logging.LogExtensions.FatalException(Buttplug.Logging.ILog, System.String, Exception, System.Object())
   nameWithType: LogExtensions.FatalException(ILog, String, Exception, Object[])
   nameWithType.vb: LogExtensions.FatalException(ILog, String, Exception, Object())
 - uid: Buttplug.Logging.LogExtensions.FatalException*
@@ -2891,13 +2891,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.FatalFormat
   nameWithType: LogExtensions.FatalFormat
-- uid: Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog,System.Func{System.String})
+- uid: Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog,Func{System.String})
   name: Info(ILog, Func<String>)
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Info_Buttplug_Logging_ILog_System_Func_System_String__
-  commentId: M:Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog,System.Func{System.String})
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Info_Buttplug_Logging_ILog_Func_System_String__
+  commentId: M:Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog,Func{System.String})
   name.vb: Info(ILog, Func(Of String))
-  fullName: Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog, System.Func<System.String>)
-  fullName.vb: Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog, System.Func(Of System.String))
+  fullName: Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog, Func<System.String>)
+  fullName.vb: Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog, Func(Of System.String))
   nameWithType: LogExtensions.Info(ILog, Func<String>)
   nameWithType.vb: LogExtensions.Info(ILog, Func(Of String))
 - uid: Buttplug.Logging.LogExtensions.Info(Buttplug.Logging.ILog,System.String)
@@ -2913,13 +2913,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.Info
   nameWithType: LogExtensions.Info
-- uid: Buttplug.Logging.LogExtensions.InfoException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+- uid: Buttplug.Logging.LogExtensions.InfoException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name: InfoException(ILog, String, Exception, Object[])
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_InfoException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___
-  commentId: M:Buttplug.Logging.LogExtensions.InfoException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_InfoException_Buttplug_Logging_ILog_System_String_Exception_System_Object___
+  commentId: M:Buttplug.Logging.LogExtensions.InfoException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name.vb: InfoException(ILog, String, Exception, Object())
-  fullName: Buttplug.Logging.LogExtensions.InfoException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object[])
-  fullName.vb: Buttplug.Logging.LogExtensions.InfoException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object())
+  fullName: Buttplug.Logging.LogExtensions.InfoException(Buttplug.Logging.ILog, System.String, Exception, System.Object[])
+  fullName.vb: Buttplug.Logging.LogExtensions.InfoException(Buttplug.Logging.ILog, System.String, Exception, System.Object())
   nameWithType: LogExtensions.InfoException(ILog, String, Exception, Object[])
   nameWithType.vb: LogExtensions.InfoException(ILog, String, Exception, Object())
 - uid: Buttplug.Logging.LogExtensions.InfoException*
@@ -3023,13 +3023,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.IsWarnEnabled
   nameWithType: LogExtensions.IsWarnEnabled
-- uid: Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog,System.Func{System.String})
+- uid: Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog,Func{System.String})
   name: Trace(ILog, Func<String>)
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Trace_Buttplug_Logging_ILog_System_Func_System_String__
-  commentId: M:Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog,System.Func{System.String})
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Trace_Buttplug_Logging_ILog_Func_System_String__
+  commentId: M:Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog,Func{System.String})
   name.vb: Trace(ILog, Func(Of String))
-  fullName: Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog, System.Func<System.String>)
-  fullName.vb: Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog, System.Func(Of System.String))
+  fullName: Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog, Func<System.String>)
+  fullName.vb: Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog, Func(Of System.String))
   nameWithType: LogExtensions.Trace(ILog, Func<String>)
   nameWithType.vb: LogExtensions.Trace(ILog, Func(Of String))
 - uid: Buttplug.Logging.LogExtensions.Trace(Buttplug.Logging.ILog,System.String)
@@ -3045,13 +3045,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.Trace
   nameWithType: LogExtensions.Trace
-- uid: Buttplug.Logging.LogExtensions.TraceException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+- uid: Buttplug.Logging.LogExtensions.TraceException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name: TraceException(ILog, String, Exception, Object[])
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_TraceException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___
-  commentId: M:Buttplug.Logging.LogExtensions.TraceException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_TraceException_Buttplug_Logging_ILog_System_String_Exception_System_Object___
+  commentId: M:Buttplug.Logging.LogExtensions.TraceException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name.vb: TraceException(ILog, String, Exception, Object())
-  fullName: Buttplug.Logging.LogExtensions.TraceException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object[])
-  fullName.vb: Buttplug.Logging.LogExtensions.TraceException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object())
+  fullName: Buttplug.Logging.LogExtensions.TraceException(Buttplug.Logging.ILog, System.String, Exception, System.Object[])
+  fullName.vb: Buttplug.Logging.LogExtensions.TraceException(Buttplug.Logging.ILog, System.String, Exception, System.Object())
   nameWithType: LogExtensions.TraceException(ILog, String, Exception, Object[])
   nameWithType.vb: LogExtensions.TraceException(ILog, String, Exception, Object())
 - uid: Buttplug.Logging.LogExtensions.TraceException*
@@ -3077,13 +3077,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.TraceFormat
   nameWithType: LogExtensions.TraceFormat
-- uid: Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog,System.Func{System.String})
+- uid: Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog,Func{System.String})
   name: Warn(ILog, Func<String>)
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Warn_Buttplug_Logging_ILog_System_Func_System_String__
-  commentId: M:Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog,System.Func{System.String})
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Warn_Buttplug_Logging_ILog_Func_System_String__
+  commentId: M:Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog,Func{System.String})
   name.vb: Warn(ILog, Func(Of String))
-  fullName: Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog, System.Func<System.String>)
-  fullName.vb: Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog, System.Func(Of System.String))
+  fullName: Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog, Func<System.String>)
+  fullName.vb: Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog, Func(Of System.String))
   nameWithType: LogExtensions.Warn(ILog, Func<String>)
   nameWithType.vb: LogExtensions.Warn(ILog, Func(Of String))
 - uid: Buttplug.Logging.LogExtensions.Warn(Buttplug.Logging.ILog,System.String)
@@ -3099,13 +3099,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Logging.LogExtensions.Warn
   nameWithType: LogExtensions.Warn
-- uid: Buttplug.Logging.LogExtensions.WarnException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+- uid: Buttplug.Logging.LogExtensions.WarnException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name: WarnException(ILog, String, Exception, Object[])
-  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_WarnException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___
-  commentId: M:Buttplug.Logging.LogExtensions.WarnException(Buttplug.Logging.ILog,System.String,System.Exception,System.Object[])
+  href: api/Buttplug.Core/Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_WarnException_Buttplug_Logging_ILog_System_String_Exception_System_Object___
+  commentId: M:Buttplug.Logging.LogExtensions.WarnException(Buttplug.Logging.ILog,System.String,Exception,System.Object[])
   name.vb: WarnException(ILog, String, Exception, Object())
-  fullName: Buttplug.Logging.LogExtensions.WarnException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object[])
-  fullName.vb: Buttplug.Logging.LogExtensions.WarnException(Buttplug.Logging.ILog, System.String, System.Exception, System.Object())
+  fullName: Buttplug.Logging.LogExtensions.WarnException(Buttplug.Logging.ILog, System.String, Exception, System.Object[])
+  fullName.vb: Buttplug.Logging.LogExtensions.WarnException(Buttplug.Logging.ILog, System.String, Exception, System.Object())
   nameWithType: LogExtensions.WarnException(ILog, String, Exception, Object[])
   nameWithType.vb: LogExtensions.WarnException(ILog, String, Exception, Object())
 - uid: Buttplug.Logging.LogExtensions.WarnException*
@@ -3207,11 +3207,11 @@ references:
   commentId: M:Buttplug.Logging.LogProvider.GetLogger(System.String)
   fullName: Buttplug.Logging.LogProvider.GetLogger(System.String)
   nameWithType: LogProvider.GetLogger(String)
-- uid: Buttplug.Logging.LogProvider.GetLogger(System.Type,System.String)
+- uid: Buttplug.Logging.LogProvider.GetLogger(Type,System.String)
   name: GetLogger(Type, String)
-  href: api/Buttplug.Core/Buttplug.Logging.LogProvider.html#Buttplug_Logging_LogProvider_GetLogger_System_Type_System_String_
-  commentId: M:Buttplug.Logging.LogProvider.GetLogger(System.Type,System.String)
-  fullName: Buttplug.Logging.LogProvider.GetLogger(System.Type, System.String)
+  href: api/Buttplug.Core/Buttplug.Logging.LogProvider.html#Buttplug_Logging_LogProvider_GetLogger_Type_System_String_
+  commentId: M:Buttplug.Logging.LogProvider.GetLogger(Type,System.String)
+  fullName: Buttplug.Logging.LogProvider.GetLogger(Type, System.String)
   nameWithType: LogProvider.GetLogger(Type, String)
 - uid: Buttplug.Logging.LogProvider.GetLogger*
   name: GetLogger
@@ -3385,6 +3385,19 @@ references:
   isSpec: "True"
   fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.CreateDevice
   nameWithType: IBluetoothDeviceInfo.CreateDevice
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.NamePrefixes
+  name: NamePrefixes
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInfo_NamePrefixes
+  commentId: P:Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.NamePrefixes
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.NamePrefixes
+  nameWithType: IBluetoothDeviceInfo.NamePrefixes
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.NamePrefixes*
+  name: NamePrefixes
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInfo_NamePrefixes_
+  commentId: Overload:Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.NamePrefixes
+  isSpec: "True"
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.NamePrefixes
+  nameWithType: IBluetoothDeviceInfo.NamePrefixes
 - uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.Names
   name: Names
   href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInfo.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInfo_Names
@@ -3462,15 +3475,56 @@ references:
   isSpec: "True"
   fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.Name
   nameWithType: IBluetoothDeviceInterface.Name
-- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32,System.Guid,System.Byte[],System.Boolean)
-  name: WriteValue(UInt32, Guid, Byte[], Boolean)
-  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_WriteValue_System_UInt32_System_Guid_System_Byte___System_Boolean_
-  commentId: M:Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32,System.Guid,System.Byte[],System.Boolean)
-  name.vb: WriteValue(UInt32, Guid, Byte(), Boolean)
-  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32, System.Guid, System.Byte[], System.Boolean)
-  fullName.vb: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32, System.Guid, System.Byte(), System.Boolean)
-  nameWithType: IBluetoothDeviceInterface.WriteValue(UInt32, Guid, Byte[], Boolean)
-  nameWithType.vb: IBluetoothDeviceInterface.WriteValue(UInt32, Guid, Byte(), Boolean)
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue(System.UInt32)
+  name: ReadValue(UInt32)
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_ReadValue_System_UInt32_
+  commentId: M:Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue(System.UInt32)
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue(System.UInt32)
+  nameWithType: IBluetoothDeviceInterface.ReadValue(UInt32)
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue(System.UInt32,System.UInt32)
+  name: ReadValue(UInt32, UInt32)
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_ReadValue_System_UInt32_System_UInt32_
+  commentId: M:Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue(System.UInt32,System.UInt32)
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue(System.UInt32, System.UInt32)
+  nameWithType: IBluetoothDeviceInterface.ReadValue(UInt32, UInt32)
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue*
+  name: ReadValue
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_ReadValue_
+  commentId: Overload:Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue
+  isSpec: "True"
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.ReadValue
+  nameWithType: IBluetoothDeviceInterface.ReadValue
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.SubscribeToUpdates
+  name: SubscribeToUpdates()
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_SubscribeToUpdates
+  commentId: M:Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.SubscribeToUpdates
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.SubscribeToUpdates()
+  nameWithType: IBluetoothDeviceInterface.SubscribeToUpdates()
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.SubscribeToUpdates*
+  name: SubscribeToUpdates
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_SubscribeToUpdates_
+  commentId: Overload:Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.SubscribeToUpdates
+  isSpec: "True"
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.SubscribeToUpdates
+  nameWithType: IBluetoothDeviceInterface.SubscribeToUpdates
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32,System.Byte[],System.Boolean)
+  name: WriteValue(UInt32, Byte[], Boolean)
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_WriteValue_System_UInt32_System_Byte___System_Boolean_
+  commentId: M:Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32,System.Byte[],System.Boolean)
+  name.vb: WriteValue(UInt32, Byte(), Boolean)
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32, System.Byte[], System.Boolean)
+  fullName.vb: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32, System.Byte(), System.Boolean)
+  nameWithType: IBluetoothDeviceInterface.WriteValue(UInt32, Byte[], Boolean)
+  nameWithType.vb: IBluetoothDeviceInterface.WriteValue(UInt32, Byte(), Boolean)
+- uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32,System.UInt32,System.Byte[],System.Boolean)
+  name: WriteValue(UInt32, UInt32, Byte[], Boolean)
+  href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_WriteValue_System_UInt32_System_UInt32_System_Byte___System_Boolean_
+  commentId: M:Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32,System.UInt32,System.Byte[],System.Boolean)
+  name.vb: WriteValue(UInt32, UInt32, Byte(), Boolean)
+  fullName: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32, System.UInt32, System.Byte[], System.Boolean)
+  fullName.vb: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue(System.UInt32, System.UInt32, System.Byte(), System.Boolean)
+  nameWithType: IBluetoothDeviceInterface.WriteValue(UInt32, UInt32, Byte[], Boolean)
+  nameWithType.vb: IBluetoothDeviceInterface.WriteValue(UInt32, UInt32, Byte(), Boolean)
 - uid: Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.WriteValue*
   name: WriteValue
   href: api/Buttplug.Server/Buttplug.Server.Bluetooth.IBluetoothDeviceInterface.html#Buttplug_Server_Bluetooth_IBluetoothDeviceInterface_WriteValue_
@@ -3504,13 +3558,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager
   nameWithType: ButtplugServer.AddDeviceSubtypeManager
-- uid: Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager``1(System.Func{Buttplug.Core.IButtplugLogManager,``0})
+- uid: Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager``1(Func{Buttplug.Core.IButtplugLogManager,``0})
   name: AddDeviceSubtypeManager<T>(Func<IButtplugLogManager, T>)
-  href: api/Buttplug.Server/Buttplug.Server.ButtplugServer.html#Buttplug_Server_ButtplugServer_AddDeviceSubtypeManager__1_System_Func_Buttplug_Core_IButtplugLogManager___0__
-  commentId: M:Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager``1(System.Func{Buttplug.Core.IButtplugLogManager,``0})
+  href: api/Buttplug.Server/Buttplug.Server.ButtplugServer.html#Buttplug_Server_ButtplugServer_AddDeviceSubtypeManager__1_Func_Buttplug_Core_IButtplugLogManager___0__
+  commentId: M:Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager``1(Func{Buttplug.Core.IButtplugLogManager,``0})
   name.vb: AddDeviceSubtypeManager(Of T)(Func(Of IButtplugLogManager, T))
-  fullName: Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager<T>(System.Func<Buttplug.Core.IButtplugLogManager, T>)
-  fullName.vb: Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager(Of T)(System.Func(Of Buttplug.Core.IButtplugLogManager, T))
+  fullName: Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager<T>(Func<Buttplug.Core.IButtplugLogManager, T>)
+  fullName.vb: Buttplug.Server.ButtplugServer.AddDeviceSubtypeManager(Of T)(Func(Of Buttplug.Core.IButtplugLogManager, T))
   nameWithType: ButtplugServer.AddDeviceSubtypeManager<T>(Func<IButtplugLogManager, T>)
   nameWithType.vb: ButtplugServer.AddDeviceSubtypeManager(Of T)(Func(Of IButtplugLogManager, T))
 - uid: Buttplug.Server.ButtplugServer.BpLogManager
@@ -3682,13 +3736,13 @@ references:
   isSpec: "True"
   fullName: Buttplug.Server.DeviceManager.AddDeviceSubtypeManager
   nameWithType: DeviceManager.AddDeviceSubtypeManager
-- uid: Buttplug.Server.DeviceManager.AddDeviceSubtypeManager``1(System.Func{Buttplug.Core.IButtplugLogManager,``0})
+- uid: Buttplug.Server.DeviceManager.AddDeviceSubtypeManager``1(Func{Buttplug.Core.IButtplugLogManager,``0})
   name: AddDeviceSubtypeManager<T>(Func<IButtplugLogManager, T>)
-  href: api/Buttplug.Server/Buttplug.Server.DeviceManager.html#Buttplug_Server_DeviceManager_AddDeviceSubtypeManager__1_System_Func_Buttplug_Core_IButtplugLogManager___0__
-  commentId: M:Buttplug.Server.DeviceManager.AddDeviceSubtypeManager``1(System.Func{Buttplug.Core.IButtplugLogManager,``0})
+  href: api/Buttplug.Server/Buttplug.Server.DeviceManager.html#Buttplug_Server_DeviceManager_AddDeviceSubtypeManager__1_Func_Buttplug_Core_IButtplugLogManager___0__
+  commentId: M:Buttplug.Server.DeviceManager.AddDeviceSubtypeManager``1(Func{Buttplug.Core.IButtplugLogManager,``0})
   name.vb: AddDeviceSubtypeManager(Of T)(Func(Of IButtplugLogManager, T))
-  fullName: Buttplug.Server.DeviceManager.AddDeviceSubtypeManager<T>(System.Func<Buttplug.Core.IButtplugLogManager, T>)
-  fullName.vb: Buttplug.Server.DeviceManager.AddDeviceSubtypeManager(Of T)(System.Func(Of Buttplug.Core.IButtplugLogManager, T))
+  fullName: Buttplug.Server.DeviceManager.AddDeviceSubtypeManager<T>(Func<Buttplug.Core.IButtplugLogManager, T>)
+  fullName.vb: Buttplug.Server.DeviceManager.AddDeviceSubtypeManager(Of T)(Func(Of Buttplug.Core.IButtplugLogManager, T))
   nameWithType: DeviceManager.AddDeviceSubtypeManager<T>(Func<IButtplugLogManager, T>)
   nameWithType.vb: DeviceManager.AddDeviceSubtypeManager(Of T)(Func(Of IButtplugLogManager, T))
 - uid: Buttplug.Server.DeviceManager.DeviceMessageReceived

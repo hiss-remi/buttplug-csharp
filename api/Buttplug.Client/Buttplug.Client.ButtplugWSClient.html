@@ -81,35 +81,11 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">ButtplugWSClient</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Buttplug.Client.html">Buttplug.Client</a></h6>
   <h6><strong>Assembly</strong>: Buttplug.Client.dll</h6>
   <h5 id="Buttplug_Client_ButtplugWSClient_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ButtplugWSClient</code></pre>
+    <pre><code class="lang-csharp hljs">public class ButtplugWSClient : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -247,13 +223,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Client_ButtplugWSClient_Connect_System_Uri_System_Boolean_.md&amp;value=---%0Auid%3A%20Buttplug.Client.ButtplugWSClient.Connect(System.Uri%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Client_ButtplugWSClient_Connect_Uri_System_Boolean_.md&amp;value=---%0Auid%3A%20Buttplug.Client.ButtplugWSClient.Connect(Uri%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Client/ButtplugWSClient.cs/#L199">View Source</a>
   </span>
   <a id="Buttplug_Client_ButtplugWSClient_Connect_" data-uid="Buttplug.Client.ButtplugWSClient.Connect*"></a>
-  <h4 id="Buttplug_Client_ButtplugWSClient_Connect_System_Uri_System_Boolean_" data-uid="Buttplug.Client.ButtplugWSClient.Connect(System.Uri,System.Boolean)">Connect(Uri, Boolean)</h4>
+  <h4 id="Buttplug_Client_ButtplugWSClient_Connect_Uri_System_Boolean_" data-uid="Buttplug.Client.ButtplugWSClient.Connect(Uri,System.Boolean)">Connect(Uri, Boolean)</h4>
   <div class="markdown level1 summary"><p>Creates the connection to the Buttplug Server and performs the protocol handshake.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -272,7 +248,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+        <td><span class="xref">Uri</span></td>
         <td><span class="parametername">aURL</span></td>
         <td><p>The URL for the Buttplug WebSocket Server, in the form of wss://address:port (wss:// is
 to ws:// as https:// is to http://)</p>
@@ -296,13 +272,13 @@ to ws:// as https:// is to http://)</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><span class="xref">Task</span></td>
         <td><p>Nothing (Task used for async/await)</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Buttplug_Client_ButtplugWSClient_Connect_System_Uri_System_Boolean__remarks">Remarks</h5>
+  <h5 id="Buttplug_Client_ButtplugWSClient_Connect_Uri_System_Boolean__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Once the WebSocket connection is open, the RequestServerInfo message is sent; the
 response is used to set up the ping timer loop. The RequestDeviceList message is also
 sent, so that any devices the server is already connected to are made known to the client.</p>
@@ -385,7 +361,7 @@ sent, so that any devices the server is already connected to are made known to t
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><span class="xref">Task</span></td>
         <td><p>Nothing (Task used for async/await)</p>
 </td>
       </tr>
@@ -453,7 +429,7 @@ will be raised as <a class="xref" href="Buttplug.Client.ButtplugWSClient.html#Bu
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
         <td><p>True if successful. If there are errors while the server is stopping scanning, a <a class="xref" href="Buttplug.Client.ButtplugWSClient.html#Buttplug_Client_ButtplugWSClient_ErrorReceived">ErrorReceived</a> event will be triggered.</p>
 </td>
       </tr>
@@ -510,7 +486,7 @@ constructing some parts of the message for the user.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Buttplug.Core/Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="../Buttplug.Core/Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
         <td><p><a class="xref" href="../Buttplug.Core/Buttplug.Core.Messages.Ok.html">Ok</a> message on success, <a class="xref" href="../Buttplug.Core/Buttplug.Core.Messages.Error.html">Error</a> message with error info otherwise.</p>
 </td>
       </tr>
@@ -560,7 +536,7 @@ constructing some parts of the message for the user.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Buttplug.Core/Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="../Buttplug.Core/Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
         <td><p>The response, which will derive from <a class="xref" href="../Buttplug.Core/Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>.</p>
 </td>
       </tr>
@@ -693,7 +669,7 @@ event will be triggered.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
         <td><p>True if successful. If there are errors while the server is starting scanning, a <a class="xref" href="Buttplug.Client.ButtplugWSClient.html#Buttplug_Client_ButtplugWSClient_ErrorReceived">ErrorReceived</a> event will be triggered.</p>
 </td>
       </tr>
@@ -725,7 +701,7 @@ event will be triggered.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
         <td><p>True if the server successful recieved the command. If there are errors while the server
 is stopping scanning, a <a class="xref" href="Buttplug.Client.ButtplugWSClient.html#Buttplug_Client_ButtplugWSClient_ErrorReceived">ErrorReceived</a> event will be triggered.</p>
 </td>
@@ -747,8 +723,7 @@ is stopping scanning, a <a class="xref" href="Buttplug.Client.ButtplugWSClient.h
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public event EventHandler&lt;DeviceEventArgs&gt; DeviceAdded</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;DeviceEventArgs&gt; DeviceAdded</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -760,7 +735,7 @@ public event EventHandler&lt;DeviceEventArgs&gt; DeviceAdded</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Buttplug.Client.DeviceEventArgs.html">DeviceEventArgs</a>&gt;</td>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Buttplug.Client.DeviceEventArgs.html">DeviceEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -778,8 +753,7 @@ public event EventHandler&lt;DeviceEventArgs&gt; DeviceAdded</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public event EventHandler&lt;DeviceEventArgs&gt; DeviceRemoved</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;DeviceEventArgs&gt; DeviceRemoved</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -791,7 +765,7 @@ public event EventHandler&lt;DeviceEventArgs&gt; DeviceRemoved</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Buttplug.Client.DeviceEventArgs.html">DeviceEventArgs</a>&gt;</td>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Buttplug.Client.DeviceEventArgs.html">DeviceEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -810,8 +784,7 @@ Error messages from the server.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public event EventHandler&lt;ErrorEventArgs&gt; ErrorReceived</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ErrorEventArgs&gt; ErrorReceived</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -823,7 +796,7 @@ public event EventHandler&lt;ErrorEventArgs&gt; ErrorReceived</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Buttplug.Client.ErrorEventArgs.html">ErrorEventArgs</a>&gt;</td>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Buttplug.Client.ErrorEventArgs.html">ErrorEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -842,8 +815,7 @@ requested that log messages be sent.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public event EventHandler&lt;LogEventArgs&gt; Log</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;LogEventArgs&gt; Log</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -855,7 +827,7 @@ public event EventHandler&lt;LogEventArgs&gt; Log</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Buttplug.Client.LogEventArgs.html">LogEventArgs</a>&gt;</td>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Buttplug.Client.LogEventArgs.html">LogEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -873,8 +845,7 @@ public event EventHandler&lt;LogEventArgs&gt; Log</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public event EventHandler&lt;ScanningFinishedEventArgs&gt; ScanningFinished</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ScanningFinishedEventArgs&gt; ScanningFinished</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -886,7 +857,7 @@ public event EventHandler&lt;ScanningFinishedEventArgs&gt; ScanningFinished</cod
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Buttplug.Client.ScanningFinishedEventArgs.html">ScanningFinishedEventArgs</a>&gt;</td>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Buttplug.Client.ScanningFinishedEventArgs.html">ScanningFinishedEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

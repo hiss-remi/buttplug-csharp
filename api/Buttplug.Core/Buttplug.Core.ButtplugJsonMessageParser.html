@@ -81,35 +81,11 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">ButtplugJsonMessageParser</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Buttplug.Core.html">Buttplug.Core</a></h6>
   <h6><strong>Assembly</strong>: Buttplug.Core.dll</h6>
   <h5 id="Buttplug_Core_ButtplugJsonMessageParser_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ButtplugJsonMessageParser</code></pre>
+    <pre><code class="lang-csharp hljs">public class ButtplugJsonMessageParser : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -163,8 +139,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
+    <pre><code class="lang-csharp hljs">public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -214,7 +189,7 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Serialize([NotNull] ButtplugMessage aMsg, uint clientSchemaVersion)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Serialize(ButtplugMessage aMsg, uint clientSchemaVersion)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -258,19 +233,19 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugJsonMessageParser_Serialize_System_Collections_Generic_IEnumerable_Buttplug_Core_ButtplugMessage__System_UInt32_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugJsonMessageParser.Serialize(System.Collections.Generic.IEnumerable%7BButtplug.Core.ButtplugMessage%7D%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugJsonMessageParser_Serialize_IEnumerable_Buttplug_Core_ButtplugMessage__System_UInt32_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugJsonMessageParser.Serialize(IEnumerable%7BButtplug.Core.ButtplugMessage%7D%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugJsonMessageParser.cs/#L242">View Source</a>
   </span>
   <a id="Buttplug_Core_ButtplugJsonMessageParser_Serialize_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Serialize*"></a>
-  <h4 id="Buttplug_Core_ButtplugJsonMessageParser_Serialize_System_Collections_Generic_IEnumerable_Buttplug_Core_ButtplugMessage__System_UInt32_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Serialize(System.Collections.Generic.IEnumerable{Buttplug.Core.ButtplugMessage},System.UInt32)">Serialize(IEnumerable&lt;ButtplugMessage&gt;, UInt32)</h4>
+  <h4 id="Buttplug_Core_ButtplugJsonMessageParser_Serialize_IEnumerable_Buttplug_Core_ButtplugMessage__System_UInt32_" data-uid="Buttplug.Core.ButtplugJsonMessageParser.Serialize(IEnumerable{Buttplug.Core.ButtplugMessage},System.UInt32)">Serialize(IEnumerable&lt;ButtplugMessage&gt;, UInt32)</h4>
   <div class="markdown level1 summary"><p>Serializes a collection of ButtplugMessage objects into a JSON string for a specified version of the schema.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Serialize([NotNull] IEnumerable&lt;ButtplugMessage&gt; aMsgs, uint clientSchemaVersion)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Serialize(IEnumerable&lt;ButtplugMessage&gt; aMsgs, uint clientSchemaVersion)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,7 +258,7 @@ public ButtplugMessage[] Deserialize(string aJsonMsg)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
         <td><span class="parametername">aMsgs</span></td>
         <td><p>A collection of ButtplugMessage objects</p>
 </td>

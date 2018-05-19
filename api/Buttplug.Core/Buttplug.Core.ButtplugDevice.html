@@ -85,35 +85,11 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Buttplug.Core.IButtplugDevice.html">IButtplugDevice</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Buttplug.Core.html">Buttplug.Core</a></h6>
   <h6><strong>Assembly</strong>: Buttplug.Core.dll</h6>
   <h5 id="Buttplug_Core_ButtplugDevice_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ButtplugDevice : IButtplugDevice</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ButtplugDevice : object, IButtplugDevice</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -131,7 +107,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ButtplugDevice([NotNull] IButtplugLogManager aLogManager, [NotNull] string aName, [NotNull] string aIdentifier)</code></pre>
+    <pre><code class="lang-csharp hljs">protected ButtplugDevice(IButtplugLogManager aLogManager, string aName, string aIdentifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,8 +154,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-protected readonly IButtplugLog BpLogger</code></pre>
+    <pre><code class="lang-csharp hljs">protected readonly IButtplugLog BpLogger</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,8 +184,7 @@ protected readonly IButtplugLog BpLogger</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-protected readonly Dictionary&lt;Type, ButtplugDevice.ButtplugDeviceWrapper&gt; MsgFuncs</code></pre>
+    <pre><code class="lang-csharp hljs">protected readonly Dictionary&lt;Type, ButtplugDevice.ButtplugDeviceWrapper&gt; MsgFuncs</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,7 +196,7 @@ protected readonly Dictionary&lt;Type, ButtplugDevice.ButtplugDeviceWrapper&gt; 
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a>, <a class="xref" href="Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.html">ButtplugDevice.ButtplugDeviceWrapper</a>&gt;</td>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">Type</span>, <a class="xref" href="Buttplug.Core.ButtplugDevice.ButtplugDeviceWrapper.html">ButtplugDevice.ButtplugDeviceWrapper</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -336,7 +310,7 @@ protected readonly Dictionary&lt;Type, ButtplugDevice.ButtplugDeviceWrapper&gt; 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -432,7 +406,7 @@ Required to allow events to be raised for this device from the lower levels.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Type</span>&gt;</td>
         <td><p>Enumerable of message types</p>
 </td>
       </tr>
@@ -440,13 +414,13 @@ Required to allow events to be raised for this device from the lower levels.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugDevice_GetMessageAttrs_System_Type_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugDevice.GetMessageAttrs(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugDevice_GetMessageAttrs_Type_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugDevice.GetMessageAttrs(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugDevice.cs/#L101">View Source</a>
   </span>
   <a id="Buttplug_Core_ButtplugDevice_GetMessageAttrs_" data-uid="Buttplug.Core.ButtplugDevice.GetMessageAttrs*"></a>
-  <h4 id="Buttplug_Core_ButtplugDevice_GetMessageAttrs_System_Type_" data-uid="Buttplug.Core.ButtplugDevice.GetMessageAttrs(System.Type)">GetMessageAttrs(Type)</h4>
+  <h4 id="Buttplug_Core_ButtplugDevice_GetMessageAttrs_Type_" data-uid="Buttplug.Core.ButtplugDevice.GetMessageAttrs(Type)">GetMessageAttrs(Type)</h4>
   <div class="markdown level1 summary"><p>Retreives the message attributes for the device associated with this message. Used for
 retreiving information about feature counts in device command messages, etc...</p>
 </div>
@@ -466,7 +440,7 @@ retreiving information about feature counts in device command messages, etc...</
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">aMsg</span></td>
         <td><p>Message type to fetch attributes for</p>
 </td>
@@ -515,7 +489,7 @@ similar on-connection setups.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
         <td><p>Response, usually <a class="xref" href="Buttplug.Core.Messages.Ok.html">Ok</a> or <a class="xref" href="Buttplug.Core.Messages.Error.html">Error</a>.</p>
 </td>
       </tr>
@@ -553,7 +527,7 @@ interface. If the message is supported, executes the handler for that message.</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;ButtplugMessage&gt; ParseMessage([NotNull] ButtplugDeviceMessage aMsg)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ButtplugMessage&gt; ParseMessage(ButtplugDeviceMessage aMsg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -583,7 +557,7 @@ interface. If the message is supported, executes the handler for that message.</
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a>&gt;</td>
         <td><p>Response, usually <a class="xref" href="Buttplug.Core.Messages.Ok.html">Ok</a> or <a class="xref" href="Buttplug.Core.Messages.Error.html">Error</a>, but can be other types.</p>
 </td>
       </tr>
@@ -604,8 +578,7 @@ interface. If the message is supported, executes the handler for that message.</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public event EventHandler DeviceRemoved</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler DeviceRemoved</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -617,7 +590,7 @@ public event EventHandler DeviceRemoved</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></td>
+        <td><span class="xref">EventHandler</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -635,8 +608,7 @@ public event EventHandler DeviceRemoved</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public event EventHandler&lt;MessageReceivedEventArgs&gt; MessageEmitted</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MessageReceivedEventArgs&gt; MessageEmitted</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -648,7 +620,7 @@ public event EventHandler&lt;MessageReceivedEventArgs&gt; MessageEmitted</code><
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Buttplug.Core.MessageReceivedEventArgs.html">MessageReceivedEventArgs</a>&gt;</td>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Buttplug.Core.MessageReceivedEventArgs.html">MessageReceivedEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

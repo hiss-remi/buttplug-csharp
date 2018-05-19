@@ -98,53 +98,29 @@
       <div class="level2"><a class="xref" href="Buttplug.Core.Messages.StopScanning.html">StopScanning</a></div>
       <div class="level2"><a class="xref" href="Buttplug.Core.Messages.Test.html">Test</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Buttplug.Core.html">Buttplug.Core</a></h6>
   <h6><strong>Assembly</strong>: Buttplug.Core.dll</h6>
   <h5 id="Buttplug_Core_ButtplugMessage_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ButtplugMessage</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ButtplugMessage : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugMessage__ctor_System_UInt32_System_UInt32_System_Type_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugMessage.%23ctor(System.UInt32%2CSystem.UInt32%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_ButtplugMessage__ctor_System_UInt32_System_UInt32_Type_.md&amp;value=---%0Auid%3A%20Buttplug.Core.ButtplugMessage.%23ctor(System.UInt32%2CSystem.UInt32%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/ButtplugMessage.cs/#L61">View Source</a>
   </span>
   <a id="Buttplug_Core_ButtplugMessage__ctor_" data-uid="Buttplug.Core.ButtplugMessage.#ctor*"></a>
-  <h4 id="Buttplug_Core_ButtplugMessage__ctor_System_UInt32_System_UInt32_System_Type_" data-uid="Buttplug.Core.ButtplugMessage.#ctor(System.UInt32,System.UInt32,System.Type)">ButtplugMessage(UInt32, UInt32, Type)</h4>
+  <h4 id="Buttplug_Core_ButtplugMessage__ctor_System_UInt32_System_UInt32_Type_" data-uid="Buttplug.Core.ButtplugMessage.#ctor(System.UInt32,System.UInt32,Type)">ButtplugMessage(UInt32, UInt32, Type)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Buttplug.Core.ButtplugMessage.html">ButtplugMessage</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ButtplugMessage(uint aId, uint aSchemaVersion = 0U, Type aPreviousType = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected ButtplugMessage(uint aId, uint aSchemaVersion = null, Type aPreviousType = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -169,7 +145,7 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">aPreviousType</span></td>
         <td><p>Type for previous version of message, if one exists.</p>
 </td>
@@ -191,8 +167,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonIgnore]
-public const uint CurrentSchemaVersion = 1U</code></pre>
+    <pre><code class="lang-csharp hljs">public const uint CurrentSchemaVersion = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,8 +200,7 @@ public const uint CurrentSchemaVersion = 1U</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.Always)]
-public uint Id { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public uint Id { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -257,8 +231,7 @@ public uint Id { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonIgnore]
-public Type PreviousType { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Type PreviousType { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -270,7 +243,7 @@ public Type PreviousType { get; protected set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="xref">Type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -289,8 +262,7 @@ public Type PreviousType { get; protected set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonIgnore]
-public uint SchemaVersion { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public uint SchemaVersion { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

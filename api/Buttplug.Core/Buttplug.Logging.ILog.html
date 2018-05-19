@@ -86,13 +86,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Logging_ILog_Log_Buttplug_Logging_LogLevel_System_Func_System_String__System_Exception_System_Object___.md&amp;value=---%0Auid%3A%20Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel%2CSystem.Func%7BSystem.String%7D%2CSystem.Exception%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Logging_ILog_Log_Buttplug_Logging_LogLevel_Func_System_String__Exception_System_Object___.md&amp;value=---%0Auid%3A%20Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel%2CFunc%7BSystem.String%7D%2CException%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/App_Packages/LibLog.4.2/LibLog.cs/#L106">View Source</a>
   </span>
   <a id="Buttplug_Logging_ILog_Log_" data-uid="Buttplug.Logging.ILog.Log*"></a>
-  <h4 id="Buttplug_Logging_ILog_Log_Buttplug_Logging_LogLevel_System_Func_System_String__System_Exception_System_Object___" data-uid="Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel,System.Func{System.String},System.Exception,System.Object[])">Log(LogLevel, Func&lt;String&gt;, Exception, Object[])</h4>
+  <h4 id="Buttplug_Logging_ILog_Log_Buttplug_Logging_LogLevel_Func_System_String__Exception_System_Object___" data-uid="Buttplug.Logging.ILog.Log(Buttplug.Logging.LogLevel,Func{System.String},Exception,System.Object[])">Log(LogLevel, Func&lt;String&gt;, Exception, Object[])</h4>
   <div class="markdown level1 summary"><p>Log a message the specified log level.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -117,13 +117,13 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="xref">Func</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">messageFunc</span></td>
         <td><p>The message function.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="xref">Exception</span></td>
         <td><span class="parametername">exception</span></td>
         <td><p>An optional exception.</p>
 </td>
@@ -152,7 +152,7 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Buttplug_Logging_ILog_Log_Buttplug_Logging_LogLevel_System_Func_System_String__System_Exception_System_Object____remarks">Remarks</h5>
+  <h5 id="Buttplug_Logging_ILog_Log_Buttplug_Logging_LogLevel_Func_System_String__Exception_System_Object____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Note to implementers: the message func should not be called if the loglevel is not enabled
 so as not to incur performance penalties.</p>
 <p>To check IsEnabled call Log with only LogLevel and check the return value, no event will be written.</p>
@@ -177,7 +177,7 @@ so as not to incur performance penalties.</p>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_IsWarnEnabled_Buttplug_Logging_ILog_">LogExtensions.IsWarnEnabled(ILog)</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Debug_Buttplug_Logging_ILog_System_Func_System_String__">LogExtensions.Debug(ILog, Func&lt;String&gt;)</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Debug_Buttplug_Logging_ILog_Func_System_String__">LogExtensions.Debug(ILog, Func&lt;String&gt;)</a>
   </div>
   <div>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Debug_Buttplug_Logging_ILog_System_String_">LogExtensions.Debug(ILog, String)</a>
@@ -186,13 +186,13 @@ so as not to incur performance penalties.</p>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugFormat_Buttplug_Logging_ILog_System_String_System_Object___">LogExtensions.DebugFormat(ILog, String, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugException_Buttplug_Logging_ILog_System_String_System_Exception_">LogExtensions.DebugException(ILog, String, Exception)</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugException_Buttplug_Logging_ILog_System_String_Exception_">LogExtensions.DebugException(ILog, String, Exception)</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___">LogExtensions.DebugException(ILog, String, Exception, Object[])</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_DebugException_Buttplug_Logging_ILog_System_String_Exception_System_Object___">LogExtensions.DebugException(ILog, String, Exception, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Error_Buttplug_Logging_ILog_System_Func_System_String__">LogExtensions.Error(ILog, Func&lt;String&gt;)</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Error_Buttplug_Logging_ILog_Func_System_String__">LogExtensions.Error(ILog, Func&lt;String&gt;)</a>
   </div>
   <div>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Error_Buttplug_Logging_ILog_System_String_">LogExtensions.Error(ILog, String)</a>
@@ -201,10 +201,10 @@ so as not to incur performance penalties.</p>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_ErrorFormat_Buttplug_Logging_ILog_System_String_System_Object___">LogExtensions.ErrorFormat(ILog, String, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_ErrorException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___">LogExtensions.ErrorException(ILog, String, Exception, Object[])</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_ErrorException_Buttplug_Logging_ILog_System_String_Exception_System_Object___">LogExtensions.ErrorException(ILog, String, Exception, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Fatal_Buttplug_Logging_ILog_System_Func_System_String__">LogExtensions.Fatal(ILog, Func&lt;String&gt;)</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Fatal_Buttplug_Logging_ILog_Func_System_String__">LogExtensions.Fatal(ILog, Func&lt;String&gt;)</a>
   </div>
   <div>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Fatal_Buttplug_Logging_ILog_System_String_">LogExtensions.Fatal(ILog, String)</a>
@@ -213,10 +213,10 @@ so as not to incur performance penalties.</p>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_FatalFormat_Buttplug_Logging_ILog_System_String_System_Object___">LogExtensions.FatalFormat(ILog, String, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_FatalException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___">LogExtensions.FatalException(ILog, String, Exception, Object[])</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_FatalException_Buttplug_Logging_ILog_System_String_Exception_System_Object___">LogExtensions.FatalException(ILog, String, Exception, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Info_Buttplug_Logging_ILog_System_Func_System_String__">LogExtensions.Info(ILog, Func&lt;String&gt;)</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Info_Buttplug_Logging_ILog_Func_System_String__">LogExtensions.Info(ILog, Func&lt;String&gt;)</a>
   </div>
   <div>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Info_Buttplug_Logging_ILog_System_String_">LogExtensions.Info(ILog, String)</a>
@@ -225,10 +225,10 @@ so as not to incur performance penalties.</p>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_InfoFormat_Buttplug_Logging_ILog_System_String_System_Object___">LogExtensions.InfoFormat(ILog, String, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_InfoException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___">LogExtensions.InfoException(ILog, String, Exception, Object[])</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_InfoException_Buttplug_Logging_ILog_System_String_Exception_System_Object___">LogExtensions.InfoException(ILog, String, Exception, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Trace_Buttplug_Logging_ILog_System_Func_System_String__">LogExtensions.Trace(ILog, Func&lt;String&gt;)</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Trace_Buttplug_Logging_ILog_Func_System_String__">LogExtensions.Trace(ILog, Func&lt;String&gt;)</a>
   </div>
   <div>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Trace_Buttplug_Logging_ILog_System_String_">LogExtensions.Trace(ILog, String)</a>
@@ -237,10 +237,10 @@ so as not to incur performance penalties.</p>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_TraceFormat_Buttplug_Logging_ILog_System_String_System_Object___">LogExtensions.TraceFormat(ILog, String, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_TraceException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___">LogExtensions.TraceException(ILog, String, Exception, Object[])</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_TraceException_Buttplug_Logging_ILog_System_String_Exception_System_Object___">LogExtensions.TraceException(ILog, String, Exception, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Warn_Buttplug_Logging_ILog_System_Func_System_String__">LogExtensions.Warn(ILog, Func&lt;String&gt;)</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Warn_Buttplug_Logging_ILog_Func_System_String__">LogExtensions.Warn(ILog, Func&lt;String&gt;)</a>
   </div>
   <div>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_Warn_Buttplug_Logging_ILog_System_String_">LogExtensions.Warn(ILog, String)</a>
@@ -249,7 +249,7 @@ so as not to incur performance penalties.</p>
       <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_WarnFormat_Buttplug_Logging_ILog_System_String_System_Object___">LogExtensions.WarnFormat(ILog, String, Object[])</a>
   </div>
   <div>
-      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_WarnException_Buttplug_Logging_ILog_System_String_System_Exception_System_Object___">LogExtensions.WarnException(ILog, String, Exception, Object[])</a>
+      <a class="xref" href="Buttplug.Logging.LogExtensions.html#Buttplug_Logging_LogExtensions_WarnException_Buttplug_Logging_ILog_System_String_Exception_System_Object___">LogExtensions.WarnException(ILog, String, Exception, Object[])</a>
   </div>
 </article>
           </div>
