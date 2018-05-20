@@ -1995,15 +1995,15 @@ references:
   commentId: T:Buttplug.Core.Messages.LinearCmd
   fullName: Buttplug.Core.Messages.LinearCmd
   nameWithType: LinearCmd
-- uid: Buttplug.Core.Messages.LinearCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.LinearCmd.VectorSubcommands},System.UInt32)
-  name: LinearCmd(UInt32, List<LinearCmd.VectorSubcommands>, UInt32)
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd__ctor_System_UInt32_List_Buttplug_Core_Messages_LinearCmd_VectorSubcommands__System_UInt32_
-  commentId: M:Buttplug.Core.Messages.LinearCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.LinearCmd.VectorSubcommands},System.UInt32)
-  name.vb: LinearCmd(UInt32, List(Of LinearCmd.VectorSubcommands), UInt32)
-  fullName: Buttplug.Core.Messages.LinearCmd.LinearCmd(System.UInt32, List<Buttplug.Core.Messages.LinearCmd.VectorSubcommands>, System.UInt32)
-  fullName.vb: Buttplug.Core.Messages.LinearCmd.LinearCmd(System.UInt32, List(Of Buttplug.Core.Messages.LinearCmd.VectorSubcommands), System.UInt32)
-  nameWithType: LinearCmd.LinearCmd(UInt32, List<LinearCmd.VectorSubcommands>, UInt32)
-  nameWithType.vb: LinearCmd.LinearCmd(UInt32, List(Of LinearCmd.VectorSubcommands), UInt32)
+- uid: Buttplug.Core.Messages.LinearCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.LinearCmd.VectorSubcommand},System.UInt32)
+  name: LinearCmd(UInt32, List<LinearCmd.VectorSubcommand>, UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd__ctor_System_UInt32_List_Buttplug_Core_Messages_LinearCmd_VectorSubcommand__System_UInt32_
+  commentId: M:Buttplug.Core.Messages.LinearCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.LinearCmd.VectorSubcommand},System.UInt32)
+  name.vb: LinearCmd(UInt32, List(Of LinearCmd.VectorSubcommand), UInt32)
+  fullName: Buttplug.Core.Messages.LinearCmd.LinearCmd(System.UInt32, List<Buttplug.Core.Messages.LinearCmd.VectorSubcommand>, System.UInt32)
+  fullName.vb: Buttplug.Core.Messages.LinearCmd.LinearCmd(System.UInt32, List(Of Buttplug.Core.Messages.LinearCmd.VectorSubcommand), System.UInt32)
+  nameWithType: LinearCmd.LinearCmd(UInt32, List<LinearCmd.VectorSubcommand>, UInt32)
+  nameWithType.vb: LinearCmd.LinearCmd(UInt32, List(Of LinearCmd.VectorSubcommand), UInt32)
 - uid: Buttplug.Core.Messages.LinearCmd.#ctor*
   name: LinearCmd
   href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd__ctor_
@@ -2011,56 +2011,78 @@ references:
   isSpec: "True"
   fullName: Buttplug.Core.Messages.LinearCmd.LinearCmd
   nameWithType: LinearCmd.LinearCmd
+- uid: Buttplug.Core.Messages.LinearCmd.Create(System.UInt32,System.UInt32,IEnumerable{System.ValueTuple{System.UInt32,System.Double}},System.UInt32)
+  name: Create(UInt32, UInt32, IEnumerable<>, UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd_Create_System_UInt32_System_UInt32_IEnumerable_System_ValueTuple_System_UInt32_System_Double___System_UInt32_
+  commentId: M:Buttplug.Core.Messages.LinearCmd.Create(System.UInt32,System.UInt32,IEnumerable{System.ValueTuple{System.UInt32,System.Double}},System.UInt32)
+  name.vb: Create(UInt32, UInt32, IEnumerable(Of ), UInt32)
+  fullName: Buttplug.Core.Messages.LinearCmd.Create(System.UInt32, System.UInt32, IEnumerable<System.>, System.UInt32)
+  fullName.vb: Buttplug.Core.Messages.LinearCmd.Create(System.UInt32, System.UInt32, IEnumerable(Of System.), System.UInt32)
+  nameWithType: LinearCmd.Create(UInt32, UInt32, IEnumerable<>, UInt32)
+  nameWithType.vb: LinearCmd.Create(UInt32, UInt32, IEnumerable(Of ), UInt32)
+- uid: Buttplug.Core.Messages.LinearCmd.Create(System.UInt32,System.UInt32,System.UInt32,System.Double,System.UInt32)
+  name: Create(UInt32, UInt32, UInt32, Double, UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd_Create_System_UInt32_System_UInt32_System_UInt32_System_Double_System_UInt32_
+  commentId: M:Buttplug.Core.Messages.LinearCmd.Create(System.UInt32,System.UInt32,System.UInt32,System.Double,System.UInt32)
+  fullName: Buttplug.Core.Messages.LinearCmd.Create(System.UInt32, System.UInt32, System.UInt32, System.Double, System.UInt32)
+  nameWithType: LinearCmd.Create(UInt32, UInt32, UInt32, Double, UInt32)
+- uid: Buttplug.Core.Messages.LinearCmd.Create*
+  name: Create
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd_Create_
+  commentId: Overload:Buttplug.Core.Messages.LinearCmd.Create
+  isSpec: "True"
+  fullName: Buttplug.Core.Messages.LinearCmd.Create
+  nameWithType: LinearCmd.Create
 - uid: Buttplug.Core.Messages.LinearCmd.Vectors
   name: Vectors
   href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html#Buttplug_Core_Messages_LinearCmd_Vectors
   commentId: F:Buttplug.Core.Messages.LinearCmd.Vectors
   fullName: Buttplug.Core.Messages.LinearCmd.Vectors
   nameWithType: LinearCmd.Vectors
-- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommands
-  name: LinearCmd.VectorSubcommands
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html
-  commentId: T:Buttplug.Core.Messages.LinearCmd.VectorSubcommands
-  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommands
-  nameWithType: LinearCmd.VectorSubcommands
-- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.#ctor(System.UInt32,System.UInt32,System.Double)
-  name: VectorSubcommands(UInt32, UInt32, Double)
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommands__ctor_System_UInt32_System_UInt32_System_Double_
-  commentId: M:Buttplug.Core.Messages.LinearCmd.VectorSubcommands.#ctor(System.UInt32,System.UInt32,System.Double)
-  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.VectorSubcommands(System.UInt32, System.UInt32, System.Double)
-  nameWithType: LinearCmd.VectorSubcommands.VectorSubcommands(UInt32, UInt32, Double)
-- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.#ctor*
-  name: VectorSubcommands
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommands__ctor_
-  commentId: Overload:Buttplug.Core.Messages.LinearCmd.VectorSubcommands.#ctor
+- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommand
+  name: LinearCmd.VectorSubcommand
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.html
+  commentId: T:Buttplug.Core.Messages.LinearCmd.VectorSubcommand
+  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommand
+  nameWithType: LinearCmd.VectorSubcommand
+- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.#ctor(System.UInt32,System.UInt32,System.Double)
+  name: VectorSubcommand(UInt32, UInt32, Double)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommand__ctor_System_UInt32_System_UInt32_System_Double_
+  commentId: M:Buttplug.Core.Messages.LinearCmd.VectorSubcommand.#ctor(System.UInt32,System.UInt32,System.Double)
+  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.VectorSubcommand(System.UInt32, System.UInt32, System.Double)
+  nameWithType: LinearCmd.VectorSubcommand.VectorSubcommand(UInt32, UInt32, Double)
+- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.#ctor*
+  name: VectorSubcommand
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommand__ctor_
+  commentId: Overload:Buttplug.Core.Messages.LinearCmd.VectorSubcommand.#ctor
   isSpec: "True"
-  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.VectorSubcommands
-  nameWithType: LinearCmd.VectorSubcommands.VectorSubcommands
-- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Duration
+  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.VectorSubcommand
+  nameWithType: LinearCmd.VectorSubcommand.VectorSubcommand
+- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Duration
   name: Duration
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommands_Duration
-  commentId: F:Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Duration
-  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Duration
-  nameWithType: LinearCmd.VectorSubcommands.Duration
-- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Index
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommand_Duration
+  commentId: F:Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Duration
+  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Duration
+  nameWithType: LinearCmd.VectorSubcommand.Duration
+- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Index
   name: Index
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommands_Index
-  commentId: F:Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Index
-  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Index
-  nameWithType: LinearCmd.VectorSubcommands.Index
-- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Position
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommand_Index
+  commentId: F:Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Index
+  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Index
+  nameWithType: LinearCmd.VectorSubcommand.Index
+- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Position
   name: Position
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommands_Position
-  commentId: P:Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Position
-  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Position
-  nameWithType: LinearCmd.VectorSubcommands.Position
-- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Position*
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommand_Position
+  commentId: P:Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Position
+  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Position
+  nameWithType: LinearCmd.VectorSubcommand.Position
+- uid: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Position*
   name: Position
-  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommands_Position_
-  commentId: Overload:Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Position
+  href: api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.html#Buttplug_Core_Messages_LinearCmd_VectorSubcommand_Position_
+  commentId: Overload:Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Position
   isSpec: "True"
-  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommands.Position
-  nameWithType: LinearCmd.VectorSubcommands.Position
+  fullName: Buttplug.Core.Messages.LinearCmd.VectorSubcommand.Position
+  nameWithType: LinearCmd.VectorSubcommand.Position
 - uid: Buttplug.Core.Messages.Log
   name: Log
   href: api/Buttplug.Core/Buttplug.Core.Messages.Log.html
@@ -2276,6 +2298,28 @@ references:
   isSpec: "True"
   fullName: Buttplug.Core.Messages.RotateCmd.RotateCmd
   nameWithType: RotateCmd.RotateCmd
+- uid: Buttplug.Core.Messages.RotateCmd.Create(System.UInt32,System.UInt32,IEnumerable{System.ValueTuple{System.Double,System.Boolean}},System.UInt32)
+  name: Create(UInt32, UInt32, IEnumerable<>, UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.RotateCmd.html#Buttplug_Core_Messages_RotateCmd_Create_System_UInt32_System_UInt32_IEnumerable_System_ValueTuple_System_Double_System_Boolean___System_UInt32_
+  commentId: M:Buttplug.Core.Messages.RotateCmd.Create(System.UInt32,System.UInt32,IEnumerable{System.ValueTuple{System.Double,System.Boolean}},System.UInt32)
+  name.vb: Create(UInt32, UInt32, IEnumerable(Of ), UInt32)
+  fullName: Buttplug.Core.Messages.RotateCmd.Create(System.UInt32, System.UInt32, IEnumerable<System.>, System.UInt32)
+  fullName.vb: Buttplug.Core.Messages.RotateCmd.Create(System.UInt32, System.UInt32, IEnumerable(Of System.), System.UInt32)
+  nameWithType: RotateCmd.Create(UInt32, UInt32, IEnumerable<>, UInt32)
+  nameWithType.vb: RotateCmd.Create(UInt32, UInt32, IEnumerable(Of ), UInt32)
+- uid: Buttplug.Core.Messages.RotateCmd.Create(System.UInt32,System.UInt32,System.Double,System.Boolean,System.UInt32)
+  name: Create(UInt32, UInt32, Double, Boolean, UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.RotateCmd.html#Buttplug_Core_Messages_RotateCmd_Create_System_UInt32_System_UInt32_System_Double_System_Boolean_System_UInt32_
+  commentId: M:Buttplug.Core.Messages.RotateCmd.Create(System.UInt32,System.UInt32,System.Double,System.Boolean,System.UInt32)
+  fullName: Buttplug.Core.Messages.RotateCmd.Create(System.UInt32, System.UInt32, System.Double, System.Boolean, System.UInt32)
+  nameWithType: RotateCmd.Create(UInt32, UInt32, Double, Boolean, UInt32)
+- uid: Buttplug.Core.Messages.RotateCmd.Create*
+  name: Create
+  href: api/Buttplug.Core/Buttplug.Core.Messages.RotateCmd.html#Buttplug_Core_Messages_RotateCmd_Create_
+  commentId: Overload:Buttplug.Core.Messages.RotateCmd.Create
+  isSpec: "True"
+  fullName: Buttplug.Core.Messages.RotateCmd.Create
+  nameWithType: RotateCmd.Create
 - uid: Buttplug.Core.Messages.RotateCmd.RotateSubcommand
   name: RotateCmd.RotateSubcommand
   href: api/Buttplug.Core/Buttplug.Core.Messages.RotateCmd.RotateSubcommand.html
@@ -2562,6 +2606,28 @@ references:
   isSpec: "True"
   fullName: Buttplug.Core.Messages.VibrateCmd.VibrateCmd
   nameWithType: VibrateCmd.VibrateCmd
+- uid: Buttplug.Core.Messages.VibrateCmd.Create(System.UInt32,System.UInt32,IEnumerable{System.Double},System.UInt32)
+  name: Create(UInt32, UInt32, IEnumerable<Double>, UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.VibrateCmd.html#Buttplug_Core_Messages_VibrateCmd_Create_System_UInt32_System_UInt32_IEnumerable_System_Double__System_UInt32_
+  commentId: M:Buttplug.Core.Messages.VibrateCmd.Create(System.UInt32,System.UInt32,IEnumerable{System.Double},System.UInt32)
+  name.vb: Create(UInt32, UInt32, IEnumerable(Of Double), UInt32)
+  fullName: Buttplug.Core.Messages.VibrateCmd.Create(System.UInt32, System.UInt32, IEnumerable<System.Double>, System.UInt32)
+  fullName.vb: Buttplug.Core.Messages.VibrateCmd.Create(System.UInt32, System.UInt32, IEnumerable(Of System.Double), System.UInt32)
+  nameWithType: VibrateCmd.Create(UInt32, UInt32, IEnumerable<Double>, UInt32)
+  nameWithType.vb: VibrateCmd.Create(UInt32, UInt32, IEnumerable(Of Double), UInt32)
+- uid: Buttplug.Core.Messages.VibrateCmd.Create(System.UInt32,System.UInt32,System.Double,System.UInt32)
+  name: Create(UInt32, UInt32, Double, UInt32)
+  href: api/Buttplug.Core/Buttplug.Core.Messages.VibrateCmd.html#Buttplug_Core_Messages_VibrateCmd_Create_System_UInt32_System_UInt32_System_Double_System_UInt32_
+  commentId: M:Buttplug.Core.Messages.VibrateCmd.Create(System.UInt32,System.UInt32,System.Double,System.UInt32)
+  fullName: Buttplug.Core.Messages.VibrateCmd.Create(System.UInt32, System.UInt32, System.Double, System.UInt32)
+  nameWithType: VibrateCmd.Create(UInt32, UInt32, Double, UInt32)
+- uid: Buttplug.Core.Messages.VibrateCmd.Create*
+  name: Create
+  href: api/Buttplug.Core/Buttplug.Core.Messages.VibrateCmd.html#Buttplug_Core_Messages_VibrateCmd_Create_
+  commentId: Overload:Buttplug.Core.Messages.VibrateCmd.Create
+  isSpec: "True"
+  fullName: Buttplug.Core.Messages.VibrateCmd.Create
+  nameWithType: VibrateCmd.Create
 - uid: Buttplug.Core.Messages.VibrateCmd.Speeds
   name: Speeds
   href: api/Buttplug.Core/Buttplug.Core.Messages.VibrateCmd.html#Buttplug_Core_Messages_VibrateCmd_Speeds

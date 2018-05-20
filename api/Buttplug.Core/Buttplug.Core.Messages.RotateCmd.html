@@ -115,7 +115,7 @@ multiple commands for devices with multiple rotators.</p>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_RotateCmd__ctor_System_UInt32_List_Buttplug_Core_Messages_RotateCmd_RotateSubcommand__System_UInt32_.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.RotateCmd.%23ctor(System.UInt32%2CList%7BButtplug.Core.Messages.RotateCmd.RotateSubcommand%7D%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1064">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1109">View Source</a>
   </span>
   <a id="Buttplug_Core_Messages_RotateCmd__ctor_" data-uid="Buttplug.Core.Messages.RotateCmd.#ctor*"></a>
   <h4 id="Buttplug_Core_Messages_RotateCmd__ctor_System_UInt32_List_Buttplug_Core_Messages_RotateCmd_RotateSubcommand__System_UInt32_" data-uid="Buttplug.Core.Messages.RotateCmd.#ctor(System.UInt32,List{Buttplug.Core.Messages.RotateCmd.RotateSubcommand},System.UInt32)">RotateCmd(UInt32, List&lt;RotateCmd.RotateSubcommand&gt;, UInt32)</h4>
@@ -163,7 +163,7 @@ multiple commands for devices with multiple rotators.</p>
     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_RotateCmd_Rotations.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.RotateCmd.Rotations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1056">View Source</a>
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1101">View Source</a>
   </span>
   <h4 id="Buttplug_Core_Messages_RotateCmd_Rotations" data-uid="Buttplug.Core.Messages.RotateCmd.Rotations">Rotations</h4>
   <div class="markdown level1 summary"><p>List of rotation speeds and directions.</p>
@@ -188,6 +188,137 @@ multiple commands for devices with multiple rotators.</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_RotateCmd_Create_System_UInt32_System_UInt32_IEnumerable_System_ValueTuple_System_Double_System_Boolean___System_UInt32_.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.RotateCmd.Create(System.UInt32%2CSystem.UInt32%2CIEnumerable%7BSystem.ValueTuple%7BSystem.Double%2CSystem.Boolean%7D%7D%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1082">View Source</a>
+  </span>
+  <a id="Buttplug_Core_Messages_RotateCmd_Create_" data-uid="Buttplug.Core.Messages.RotateCmd.Create*"></a>
+  <h4 id="Buttplug_Core_Messages_RotateCmd_Create_System_UInt32_System_UInt32_IEnumerable_System_ValueTuple_System_Double_System_Boolean___System_UInt32_" data-uid="Buttplug.Core.Messages.RotateCmd.Create(System.UInt32,System.UInt32,IEnumerable{System.ValueTuple{System.Double,System.Boolean}},System.UInt32)">Create(UInt32, UInt32, IEnumerable&lt;&gt;, UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RotateCmd Create(uint aDeviceIndex, uint aMsgId, IEnumerable&lt;&gt; aCmds, uint aCmdCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">aDeviceIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">aMsgId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.</span>&gt;</td>
+        <td><span class="parametername">aCmds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">aCmdCount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Buttplug.Core.Messages.RotateCmd.html">RotateCmd</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_RotateCmd_Create_System_UInt32_System_UInt32_System_Double_System_Boolean_System_UInt32_.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.RotateCmd.Create(System.UInt32%2CSystem.UInt32%2CSystem.Double%2CSystem.Boolean%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1077">View Source</a>
+  </span>
+  <a id="Buttplug_Core_Messages_RotateCmd_Create_" data-uid="Buttplug.Core.Messages.RotateCmd.Create*"></a>
+  <h4 id="Buttplug_Core_Messages_RotateCmd_Create_System_UInt32_System_UInt32_System_Double_System_Boolean_System_UInt32_" data-uid="Buttplug.Core.Messages.RotateCmd.Create(System.UInt32,System.UInt32,System.Double,System.Boolean,System.UInt32)">Create(UInt32, UInt32, Double, Boolean, UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RotateCmd Create(uint aDeviceIndex, uint aMsgId, double aSpeed, bool aClockwise, uint aCmdCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">aDeviceIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">aMsgId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><span class="parametername">aSpeed</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">aClockwise</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">aCmdCount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Buttplug.Core.Messages.RotateCmd.html">RotateCmd</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -199,7 +330,7 @@ multiple commands for devices with multiple rotators.</p>
                     <a href="https://github.com/metafetish/buttplug-csharp/new/master/apiSpec/new?filename=Buttplug_Core_Messages_RotateCmd.md&amp;value=---%0Auid%3A%20Buttplug.Core.Messages.RotateCmd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L992" class="contribution-link">View Source</a>
+                    <a href="https://github.com/metafetish/buttplug-csharp/blob/master/Buttplug.Core/Messages/Messages.cs/#L1017" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

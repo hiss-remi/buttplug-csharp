@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.DeviceAdded.html",
-          "hash": "VgQqPVxpQeYuvgV5UKpIEQ=="
+          "hash": "v2jBq1Qbc6JoAod4yape5Q=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.DeviceAddedVersion0.html",
-          "hash": "icHSE87vK5JIEAWyUKAcWA=="
+          "hash": "Cgf3aM63r8SVyUEUIgd9xQ=="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.DeviceList.html",
-          "hash": "Wx09tMUgvJoXe3KcS6h3dQ=="
+          "hash": "gGHQPEfBUqjzhpQn5k74zg=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.DeviceListVersion0.html",
-          "hash": "eDYfe2d3YOdC+MR4jylOtQ=="
+          "hash": "Ir7FtBI9HAvBcrTjc79BmA=="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.DeviceMessageInfo.html",
-          "hash": "MYjL9bCtX+vSm/qR20XdVg=="
+          "hash": "55q6dOuJDOySHwT2p39XYA=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.DeviceMessageInfoVersion0.html",
-          "hash": "RLzBqM2LbtoDAEJmaKhA7Q=="
+          "hash": "ORCPsIWMngCDEhCdXJTOsg=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.DeviceRemoved.html",
-          "hash": "YssQxw35dX4ScT5z35qOeg=="
+          "hash": "f3QtB3ZpCvBsj8zlHcWLUQ=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.Error.ErrorClass.html",
-          "hash": "KPKgejhaImsGl01tjxnynQ=="
+          "hash": "WL3F5241HTOOrLbv/RaIRA=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.Error.html",
-          "hash": "vcnbM7lPN7bfMnbuvUAfiQ=="
+          "hash": "s8oD5hbauChZnWxj7/gJ9g=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.FleshlightLaunchFW12Cmd.html",
-          "hash": "CYtS0fldkXclkNibmwn4xw=="
+          "hash": "4AOYIb8MQf17t3DZTfKjIQ=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.KiirooCmd.html",
-          "hash": "UzYWyUcmJmuimR07lUkNfg=="
+          "hash": "fnh41ZtToRdLg+/vyK90Gw=="
         }
       },
       "is_incremental": false,
@@ -509,11 +509,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.yml",
+      "source_relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommands.html",
-          "hash": "M8khD8j/+jWJShZFabF9fw=="
+          "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.VectorSubcommand.html",
+          "hash": "utA/lXbNMD9kux68t4Z55w=="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.LinearCmd.html",
-          "hash": "yvFHP9kFrWaEybLp20eKlw=="
+          "hash": "ltxtw9W7BiVtc8BYVWhClQ=="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.Log.html",
-          "hash": "RsCyYx4xwSS9uDbpHp6ZuA=="
+          "hash": "Vf3u+vEgznr06PMcR8UOxw=="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.LovenseCmd.html",
-          "hash": "pDiIrNhnu2AGnYlOtJEpRg=="
+          "hash": "bY9J++unKN8i2uGmD2+HoA=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.MessageAttributes.html",
-          "hash": "9Xy8DsIaxvks8RRQ1MLwIQ=="
+          "hash": "eAOZxnL7cXJsyXOtgwM5dA=="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.Ok.html",
-          "hash": "DLlRFVwKR1LlrvyXKYY+Sw=="
+          "hash": "+3fl/xeTu98s/O178/S9NQ=="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.Ping.html",
-          "hash": "CGMHKYjvlBmo+Sy+Qk3sjg=="
+          "hash": "h6iNzoLC7LNIVnDYuOFy+A=="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.RequestDeviceList.html",
-          "hash": "w/G2/18uN1AlcWJkzlmQ8Q=="
+          "hash": "Chi+tqLOkch7riZO7N1mpQ=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.RequestLog.html",
-          "hash": "9bzzez7Valm63OE+gay6lQ=="
+          "hash": "ESFV+Hg03j/EYJ2lgewYvg=="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.RequestServerInfo.html",
-          "hash": "RXO4cUkXwfUzZS61cGWTBA=="
+          "hash": "AZXzfVu0xh8eaEjkXXy6qw=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.RotateCmd.RotateSubcommand.html",
-          "hash": "YKF9k2pbkhEmVfPfOdJB8w=="
+          "hash": "msGE+RX4p6S8DfCo+rc68Q=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.RotateCmd.html",
-          "hash": "aHoCRFWahBgfzRel9rWaZg=="
+          "hash": "R8gib6gIJe78lc+myAOlpw=="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.ScanningFinished.html",
-          "hash": "kUuysFG66WV/fxDh9SVcbw=="
+          "hash": "Efj268viBtxYH0RxVgr8tw=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.ServerInfo.html",
-          "hash": "MPqOMeQTeAYuKUbjesLsAA=="
+          "hash": "b420NV9m6ucREBOMOpCDLA=="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.SingleMotorVibrateCmd.html",
-          "hash": "ndl9JKI8yaDlqD1B6y7zWw=="
+          "hash": "0uuWMZKqaOpwn1aADS2IRA=="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.StartScanning.html",
-          "hash": "Jp6VhOk1olmqw/ISDB7RPQ=="
+          "hash": "ykCJqBPT4Wz6hT2fP2p87A=="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.StopAllDevices.html",
-          "hash": "mgGK5vvvJdU6WsCnCqdObQ=="
+          "hash": "gXN8dG8yuizVkH96EEl0/A=="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.StopDeviceCmd.html",
-          "hash": "EadNiH2R8HXTNRObo0jOpg=="
+          "hash": "AkeIpIGRj7rQb6qFbcWLiw=="
         }
       },
       "is_incremental": false,
@@ -729,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.StopScanning.html",
-          "hash": "Nab7rzy/PIbhaLYCbvEJgw=="
+          "hash": "Z9iQJEmW1XwBt2kKNV3yOQ=="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.Test.html",
-          "hash": "AS4tveipc5abKGhhTnVRLA=="
+          "hash": "rfiYTr2Ccj+T5Cfhj1/ntA=="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.VibrateCmd.VibrateSubcommand.html",
-          "hash": "kf73EzLSexPqutyo92pPig=="
+          "hash": "1fPjXIY6VjdhuBGTGwnJGw=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.VibrateCmd.html",
-          "hash": "dSP5so+Li4ZW9ntSddXI+g=="
+          "hash": "7rFPx3sRc8wzqH1JWuoC2g=="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.VorzeA10CycloneCmd.html",
-          "hash": "sZ9BDAU20pIdoSNg8KQKGg=="
+          "hash": "2Tf5DMWIyLIsdrnbMiugGw=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Buttplug.Core/Buttplug.Core.Messages.html",
-          "hash": "FX7tGdBaLg3uMP6q9YVH3Q=="
+          "hash": "2iHVKqDPPUOwtDSnV5iPsw=="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "J9gK0DFqO7ox0Y70OEys7w=="
+          "hash": "5mThF18qu6QViOPkmjoqlA=="
         }
       },
       "is_incremental": false,
@@ -1176,17 +1176,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
