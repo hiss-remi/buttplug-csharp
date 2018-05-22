@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>0.2.1 (2018-03-08) </title>
+    <title>0.2.2 (2018-05-21) </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="0.2.1 (2018-03-08) ">
+    <meta name="title" content="0.2.2 (2018-05-21) ">
     <meta name="generator" content="docfx 2.33.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,9 +60,38 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="021-2018-03-08">0.2.1 (2018-03-08)</h1>
+<h1 id="022-2018-05-21">0.2.2 (2018-05-21)</h1>
 
 <h2 id="features">Features</h2>
+<ul>
+<li>Added Hardware Support<ul>
+<li>Vorze UFO SA</li>
+<li>LiBo Whale</li>
+<li>MysteryVibe Crescendo</li>
+<li>Cyclone X10 (USB)</li>
+</ul>
+</li>
+<li>Added name prefix device searching (Hopefully fixes Lovense update problems)</li>
+<li>Rename WebsocketServer to Server in preparation for IPC</li>
+<li>Add signal multiplier to GVR, for games with light vibration</li>
+<li>Add controller passthru to GVR, to allow turning off gamepad rumble when routing to toys</li>
+</ul>
+<h2 id="bugfixes">Bugfixes</h2>
+<ul>
+<li>Remove ping checking from Server to stop background tab disconnects
+on webbrowsers</li>
+<li>Move all .Net Standard project to .Net 4.7</li>
+<li>Update dependencies</li>
+<li>Change server GUI from disappearing to disabling on server stop</li>
+<li>Clear last error on server on successful connect or server start</li>
+<li>Fix lockup when closing applications that use the device tab and have a device scan going</li>
+<li>Fix crash when device names is missing in friendly name tables</li>
+<li>Fix crash when trying to open link on systems without a browser selected.</li>
+<li>Fix crash when Crypto key can&#39;t be written to disk</li>
+<li>Fix crash when Trancevibrator registry lookup returns unexpected types</li>
+</ul>
+<h1 id="021-2018-03-08">0.2.1 (2018-03-08)</h1>
+<h2 id="features-1">Features</h2>
 <ul>
 <li>Added Hardware Support<ul>
 <li>Lovense Lush/Domi/Edge (new firmware versions)</li>
@@ -75,7 +104,7 @@
 <li>Game Vibration Router now have &quot;Vibes&quot; tab to show incoming vibration commands</li>
 <li>Added individual vibrator control for WeVibes</li>
 </ul>
-<h2 id="bugfixes">Bugfixes</h2>
+<h2 id="bugfixes-1">Bugfixes</h2>
 <ul>
 <li>Fixed XInput DLL missing crash</li>
 <li>Fixed BAD DATA error/crash on accepting certs</li>
@@ -84,7 +113,7 @@
 <li>Game Vibration Router only updates toys at 20hz max</li>
 </ul>
 <h1 id="020-2018-01-22">0.2.0 (2018-01-22)</h1>
-<h2 id="features-1">Features</h2>
+<h2 id="features-2">Features</h2>
 <ul>
 <li>Added Hardware Support<ul>
 <li>Youcups Warrior II Masturbator</li>
@@ -103,24 +132,24 @@
 <li>Moved code to .Net Standard 2.0 compatibility</li>
 <li>Moved testing to NUnit</li>
 </ul>
-<h2 id="bugfixes-1">Bugfixes</h2>
+<h2 id="bugfixes-2">Bugfixes</h2>
 <ul>
 <li>Game Router process select button disabled until process selected</li>
 <li>Fix SynchronizationContext crash in client</li>
 </ul>
 <h1 id="013-2017-12-07">0.1.3 (2017-12-07)</h1>
-<h2 id="features-2">Features</h2>
+<h2 id="features-3">Features</h2>
 <ul>
 <li>Add ignore cert errors for client library</li>
 <li>Handle message ID iteration in client library</li>
 </ul>
 <h1 id="012-2017-09-15">0.1.2 (2017-09-15)</h1>
-<h2 id="bugfixes-2">Bugfixes</h2>
+<h2 id="bugfixes-3">Bugfixes</h2>
 <ul>
 <li>Fix ArgumentOutOfBoundsException in updater</li>
 </ul>
 <h1 id="011-2017-09-15">0.1.1 (2017-09-15)</h1>
-<h2 id="features-3">Features</h2>
+<h2 id="features-4">Features</h2>
 <ul>
 <li>Added auto update and update checking functionality</li>
 <li>Added support for the following hardware<ul>
@@ -132,7 +161,7 @@
 <li>Added Game Vibration Router application</li>
 <li>WebsocketServer now defaults to SSL</li>
 </ul>
-<h2 id="bugfixes-3">Bugfixes</h2>
+<h2 id="bugfixes-4">Bugfixes</h2>
 <ul>
 <li>Fixed hang when no XBox controllers and no Bluetooth adapters are
 connected</li>
@@ -145,7 +174,7 @@ notification, not in modal dialogs</li>
 <li>Vibratissimo devices now required to be named &quot;Vibratissimo&quot;</li>
 </ul>
 <h1 id="010-2017-08-07">0.1.0 (2017-08-07)</h1>
-<h2 id="features-4">Features</h2>
+<h2 id="features-5">Features</h2>
 <ul>
 <li>First release</li>
 <li>Added support for the following hardware<ul>
